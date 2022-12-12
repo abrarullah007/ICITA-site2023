@@ -11,7 +11,7 @@ class Gallery extends React.Component {
 
   componentDidMount() {
     document.title =
-      "Organisers - 16th International Conference on Information Technology and Applications (ICITA)";
+      "Organisers - 17th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {

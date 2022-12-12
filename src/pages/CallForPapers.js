@@ -84,7 +84,7 @@ class CallForPapers extends React.Component {
                           <li>
                             Ongoing works with relevant preliminary results,
                             open to discussion. These papers are assigned a
-                            7-page limit.
+                            10-page limit.
                           </li>
                           {/* <li>
                           Poster paper: Initial work with relevant ideas, open
@@ -149,13 +149,13 @@ class CallForPapers extends React.Component {
                         practical relevance to the confernce tracks will be
                         given best paper award. Sponsored by the MDPI, a prize
                         of €500 will be awarded for the best article to be
-                        presented in person at ICITA 2022.
+                        presented in person at ICITA 2023.
                       </p>
                       <h4> Publication and Indexing </h4>
                       <p>
                         To ensure that a full paper is published, at least one
                         of the authors must be fully registered by the 20th of
-                        June 2022, and the paper must comply with the suggested
+                        June 2023, and the paper must comply with the suggested
                         layout and page-limit. Additionally, all recommended
                         changes must be addressed by the authors before they
                         submit the camera-ready version.

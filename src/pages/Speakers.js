@@ -30,8 +30,9 @@ class Speakers extends React.Component {
             </div>
           </div>
           <div className="row speakers_row">
+            TBC
             {/* <!-- Speaker --> */}
-            <div className="col-xl-3 col-md-3">
+            {/* <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
@@ -55,10 +56,9 @@ class Speakers extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
-
+            </div> */}
             {/* <!-- Speaker --> */}
-            <div className="col-xl-3 col-md-3">
+            {/* <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
@@ -81,9 +81,8 @@ class Speakers extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="col-xl-3 col-md-3">
+            </div> */}
+            {/* <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
@@ -106,9 +105,8 @@ class Speakers extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="col-xl-3 col-md-3">
+            </div> */}
+            {/* <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
@@ -131,7 +129,7 @@ class Speakers extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

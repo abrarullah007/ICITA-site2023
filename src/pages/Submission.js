@@ -11,7 +11,7 @@ class Submission extends React.Component {
 
   componentDidMount() {
     document.title =
-      "ICITA 2022 | Submissions - 16th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA 2023 | Submissions - 17th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -61,12 +61,13 @@ class Submission extends React.Component {
                             {" "}
                             <b>
                               {" "}
-                              <a
+                              {/* <a
                                 href="https://www.icita.world/files/Book_Contributor_EN_Limited_v1_1.docm"
                                 target="_blank"
                               >
                                 Click here to download the consent form
-                              </a>
+                              </a> */}
+                              Consent form will be published soon.
                             </b>
                           </li>
                           <li>
@@ -91,7 +92,7 @@ class Submission extends React.Component {
                       </p>
                       <br></br>
                       <div className="button button_3 cta_button pull-left">
-                        <a
+                        {/* <a
                           href="https://easychair.org/my/conference?conf=icita2022"
                           target="_blank"
                         >
@@ -99,7 +100,8 @@ class Submission extends React.Component {
                             Easychair
                             <img src={require("../assets/arrow.png")} alt="" />
                           </span>
-                        </a>
+                        </a> */}
+                        Coming soon...
                       </div>
                       <p>
                         Note: To submit a paper you need to have an EasyChair
@@ -108,7 +110,7 @@ class Submission extends React.Component {
                       </p>
 
                       {/* Camera Ready Paper Submission */}
-                      <p align="left">
+                      {/* <p align="left">
                         <h4>Submit Camera Ready Papers by 30th August 2022</h4>
                       </p>
                       <p align="left">
@@ -147,14 +149,14 @@ class Submission extends React.Component {
                             </b>
                           </li>
                         </ul>
-                      </p>
+                      </p> */}
 
                       {/* <p align="left">
                         To submit camera ready paper please go to{" "}
                         <b>Easychair conference Management System:</b>
                       </p> */}
                       <br></br>
-                      <div className="button button_3 cta_button pull-left">
+                      {/* <div className="button button_3 cta_button pull-left">
                         <a
                           href="https://forms.gle/9fzByRwbXH7fXyrw6"
                           target="_blank"
@@ -164,8 +166,8 @@ class Submission extends React.Component {
                             <img src={require("../assets/arrow.png")} alt="" />
                           </span>
                         </a>
-                      </div>
-                      <p align="left">
+                      </div> */}
+                      {/* <p align="left">
                         <b>
                           Note: You must submit your paper in MS Word format for
                           editing{" "}
@@ -186,7 +188,7 @@ class Submission extends React.Component {
                             </li>
                           </ul>
                         </b>
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -210,7 +212,8 @@ class Submission extends React.Component {
                           href="https://www.springer.com/series/15179"
                           target="_blank"
                         >
-                          Lecture Notes in Network Systems Series
+                          Lecture Notes in Network Systems Series (Application
+                          in process)
                         </a>
                         <img
                           src={require("../assets/lnns.PNG")}

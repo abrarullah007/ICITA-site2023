@@ -39,7 +39,7 @@ class Registration extends React.Component {
                           href="https://www.springer.com/series/15179"
                           target="_blank"
                         >
-                          Lecture Notes in Network Systems Series
+                          Lecture Notes in Network Systems Series (in process)
                         </a>
                         <a
                           href="https://www.springer.com/series/15179"
@@ -74,7 +74,7 @@ class Registration extends React.Component {
                               </td>
                               <td valign="bottom">
                                 <p>
-                                  <b style={{ color: "green" }}>Free</b>
+                                  <b style={{ color: "green" }}>USD 100</b>
                                 </p>
                               </td>
                             </tr>
@@ -83,7 +83,15 @@ class Registration extends React.Component {
                                 <p>In presence/Face to face</p>
                               </td>
                               <td valign="bottom">
-                                <p>80 &euro;</p>
+                                <p>USD 250</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td valign="bottom">
+                                <p>In presence (Student)</p>
+                              </td>
+                              <td valign="bottom">
+                                <p>USD 150</p>
                               </td>
                             </tr>
                             <tr>
@@ -91,7 +99,7 @@ class Registration extends React.Component {
                                 <p>Exhibitor for companies / products</p>
                               </td>
                               <td valign="bottom">
-                                <p>350 &euro;</p>
+                                <p>USD 350 </p>
                               </td>
                             </tr>
                             <tr>
@@ -120,7 +128,7 @@ class Registration extends React.Component {
                               </td>
                               <td valign="bottom">
                                 <p>
-                                  <b style={{ color: "green" }}>Free</b>
+                                  <b style={{ color: "green" }}>USD 50</b>
                                 </p>
                               </td>
                             </tr>
@@ -129,7 +137,7 @@ class Registration extends React.Component {
                                 <p>Extra paper (Face to face)</p>
                               </td>
                               <td valign="bottom">
-                                <p>50 &euro;</p>
+                                <p>USD 100</p>
                               </td>
                             </tr>
                             <tr>
@@ -137,12 +145,12 @@ class Registration extends React.Component {
                                 <p>Conference Dinner (October 21)</p>
                               </td>
                               <td valign="bottom">
-                                <p>30 &euro;</p>
+                                <p>USD 30</p>
                               </td>
                             </tr>
                           </tbody>
                         </table>
-                        <div className="section_title_container text-center">
+                        {/* <div className="section_title_container text-center">
                           <div className="section_title">
                             <h2>Online participants</h2>
                           </div>
@@ -154,8 +162,8 @@ class Registration extends React.Component {
                               on site.
                             </p>
                           </div>
-                        </div>
-                        <div className="button button_2 intro_button">
+                        </div> */}
+                        {/* <div className="button button_2 intro_button">
                           <a
                             href="https://reg.itmas.org/account/signup"
                             target="_blank"
@@ -168,7 +176,7 @@ class Registration extends React.Component {
                               />
                             </span>
                           </a>
-                        </div>
+                        </div> */}
                       </p>
                     </p>
                   </div>

@@ -22,9 +22,9 @@ class CallForWorkshop extends React.Component {
                   <p align="left">
                     The academics, professionals, researchers, and industrial
                     community is invited to submit proposals for the
-                    organization of Workshops/Special Sessions at ICITA 2022 -
-                    16th International Conference on Information Technology and
-                    Applications, to be held at Dubai, UAE, 20 - 22nd Oct 2022.
+                    organization of Workshops/Special Sessions at ICITA 2023 -
+                    17th International Conference on Information Technology and
+                    Applications, to be held at Turin, Italy, 20-22nd Oct 2023.
                     ICITA is a prestigious global forum for researchers and
                     practitioners to present and discuss the most recent
                     innovations, trends, results, experiences, and concerns in
@@ -35,7 +35,7 @@ class CallForWorkshop extends React.Component {
                   <h4>Workshop/Special Session Format</h4>
                   <p align="left">
                     Workshops/Special Sessions should focus on a specific
-                    scientific subject on the scope of ICITA'22 but not directly
+                    scientific subject on the scope of ICITA'23 but not directly
                     included on the main conference areas. Each workshop/Special
                     Session will be coordinated by an organizing committee
                     composed of, at least, two researchers in the field,
@@ -44,7 +44,7 @@ class CallForWorkshop extends React.Component {
                     program committee for the Workshop/Special Session, with
                     recognized researchers within the specific Workshop/Special
                     Session scientific area. The selection of Workshops/Special
-                    Sessions will be performed by ICITA'22 Workshop/Special
+                    Sessions will be performed by ICITA'23 Workshop/Special
                     Session Chairs. Workshops/Special Session papers will be
                     published in the conference main proceedings.
                   </p>
@@ -121,7 +121,7 @@ class CallForWorkshop extends React.Component {
                       papers including results, tables, figures, and references.
                       Please, read authors guidelines carefully.
                     </p>
-                    <p>
+                    {/* <p>
                       Please submit your proposal by email to the workshop
                       chair:
                       <b>Dr. Teresa Guarda</b>
@@ -134,10 +134,10 @@ class CallForWorkshop extends React.Component {
                           gupta.brij@gmail.com
                         </a>
                       </b>
-                    </p>
+                    </p> */}
                   </div>
                   <br></br>
-                  <div align="left">
+                  {/* <div align="left">
                     <div>
                       <h4>Workshops</h4>
                     </div>
@@ -159,7 +159,7 @@ class CallForWorkshop extends React.Component {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

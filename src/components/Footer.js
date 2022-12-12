@@ -11,7 +11,7 @@ class Footer extends React.Component {
                 <div className="logo">
                   <a href="#">
                     <span>
-                      ICITA<span>2022</span>
+                      ICITA<span>2023</span>
                     </span>
                     <span>CONFERENCE</span>
                   </a>
@@ -82,7 +82,7 @@ class Footer extends React.Component {
                 </div>
               </div>
               <div className="col-lg-3 footer_col">
-                <div className="footer_column">
+                {/* <div className="footer_column">
                   <div className="footer_title">Sponsors</div>
                   <div className="footer_text">
                     <a href="https://www.iscte-iul.pt/" target="_blank">
@@ -99,66 +99,9 @@ class Footer extends React.Component {
                       <img src={require("../assets/education.PNG")} alt="" />
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
 
-              {/* <div className="col-lg-3 footer_col">
-                <div className="footer_column">
-                  <div className="footer_title">Sponsors</div>
-                  <div className="gallery d-flex flex-row align-items-start justify-content-between flex-wrap">
-                    <div className="gallery_item">
-                      <a
-                        className="colorbox"
-                        href="http://www.hw.ac.uk"
-                        target="_blank"
-                      >
-                        <img
-                          src={require("../assets/previous/hw.png")}
-                          alt="Heriot Watt University"
-                        />
-                      </a>
-                      <br />
-                      <a
-                        className="colorbox"
-                        href="https://www.mdpi.com/journal/education"
-                      >
-                        <img
-                   
-                          height="40"
-                          width="90"
-                          src={require("../assets/education.PNG")}
-                          alt=""
-                        />
-                      </a>
-                      <br />
-                      <a className="colorbox" href="https://www.iscte-iul.pt/">
-                        <img
-                          style={{ background: "white" }}
-                          height="40"
-                          width="90"
-                          src={require("../assets/iscte.svg")}
-                          alt=""
-                        />
-                      </a>
-                    </div>
-
-                    <div className="gallery_item">
-                      <a className="colorbox" href="images/gallery_3_large.jpg">
-                        <img
-                          src={require("../assets/previous/conf4-sm.jpg")}
-                          alt=""
-                        />
-                      </a>
-                    </div>
-
-                    <div className="gallery_item">
-                      <a className="colorbox" href="images/gallery_8_large.jpg">
-                        <img src="images/gallery_8.jpg" alt="" />
-                      </a>
-                    </div> 
-                  </div>
-                </div>
-              </div> */}
               {/* <div className="col-lg-3 footer_col">
                 <div className="footer_column">
                   <div className="footer_title">Sponsors</div>

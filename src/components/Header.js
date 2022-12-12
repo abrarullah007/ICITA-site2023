@@ -46,7 +46,7 @@ class Header extends React.Component {
           <div className="logo">
             <a href="#">
               <span>
-                ICITA<span>2022</span>
+                ICITA<span>2023</span>
               </span>
               <span>Conference</span>
             </a>

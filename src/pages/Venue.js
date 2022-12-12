@@ -11,7 +11,7 @@ class Venue extends React.Component {
 
   componentDidMount() {
     document.title =
-      "ICITA 2021 | Venue - 15th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA 2023 | Venue - 17th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -35,12 +35,9 @@ class Venue extends React.Component {
                         The event will be held in a hybrid mode (online and
                         face-to-face). The face-to-face event will be held at{" "}
                         <br></br>
-                        <h3>
-                          ISCTE - Instituto Universitário de Lisboa,
-                          Audax,Lisbon, Portugal
-                        </h3>{" "}
+                        <h3>University of Turin, Italy</h3>{" "}
                         <iframe
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.7001844485567!2d-9.155380284307638!3d38.747641729593965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331baef35e33%3A0xabc0029f016e9f43!2sAudax%20%2F%20Centro%20de%20Empreendedorismo%20e%20Inova%C3%A7%C3%A3o%20do%20ISCTE-IUL!5e0!3m2!1sen!2sae!4v1641393317110!5m2!1sen!2sae"
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22547.9152675737!2d7.6589802180671755!3d45.05558226227108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d7acf722d37%3A0x37343872facda6b6!2sUniversity%20of%20Turin!5e0!3m2!1sen!2suk!4v1670846053920!5m2!1sen!2suk"
                           width="600"
                           height="450"
                           style={{ border: "0" }}
@@ -52,7 +49,7 @@ class Venue extends React.Component {
                         Links for the online event and program schedule will be
                         shared with all participants.
                       </p> */}
-                      <h3>Accomodation</h3>
+                      {/* <h3>Accomodation</h3>
                       <p>
                         If you are planning to attend the face to face event,
                         there are plenty of hotels in the close proximity of the
@@ -61,7 +58,7 @@ class Venue extends React.Component {
                           Click here{" "}
                         </a>{" "}
                         for more details.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
