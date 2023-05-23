@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 class CallForWorkshop extends React.Component {
   componentDidMount() {
     document.title =
-      "Call For Workshop : ICITA (The International Conference on Information Technology and Applications 2021)";
+      "Call For Workshop : ICITA (The International Conference on Information Technology and Applications" +
+      new Date().getFullYear() +
+      " )";
   }
   render() {
     return (

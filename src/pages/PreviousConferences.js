@@ -32,6 +32,27 @@ class PreviousConferences extends React.Component {
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
+                    <a href="https://2022.icita.world" target="_blank">
+                      Archive
+                    </a>
+                  </div>
+                  <div className="speaker_title">ICITA 2022</div>
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Speaker --> */}
+            {/* <!-- Speaker --> */}
+            <div className="col-xl-4 col-md-6">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/previous/icita2021.PNG")}
+                    alt=""
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
                     <a href="https://2021.icita.world" target="_blank">
                       Archive
                     </a>

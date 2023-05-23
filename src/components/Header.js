@@ -134,7 +134,7 @@ class Header extends React.Component {
                       onClick={(e) =>
                         this.TweetMe(
                           e,
-                          "ICITA 2021: Join us on 13-14 November, Knowledge Park, Dubai, UAE"
+                          "Join us at ICITA  " + new Date().getFullYear()
                         )
                       }
                     >

@@ -82,47 +82,48 @@ class Footer extends React.Component {
                 </div>
               </div>
               <div className="col-lg-3 footer_col">
-                {/* <div className="footer_column">
-                  <div className="footer_title">Sponsors</div>
-                  <div className="footer_text">
-                    <a href="https://www.iscte-iul.pt/" target="_blank">
-                      <img
-                        src={require("../assets/iscte.PNG")}
-                        alt="University of ISCTE, Lisbon"
-                      />
-                    </a>
-                    <br /> <br />
-                    <a
-                      className="colorbox"
-                      href="https://www.mdpi.com/journal/education"
-                    >
-                      <img src={require("../assets/education.PNG")} alt="" />
-                    </a>
-                  </div>
-                </div> */}
-              </div>
-
-              {/* <div className="col-lg-3 footer_col">
                 <div className="footer_column">
-                  <div className="footer_title">Sponsors</div>
+                  <div className="footer_title">Associate</div>
                   <div className="gallery d-flex flex-row align-items-start justify-content-between flex-wrap">
                     <div className="gallery_item">
                       <a
                         className="footer_title"
-                        href="https://www.iscte-iul.pt/"
+                        href="https://www.allconferencealert.com/"
                       >
                         <img
                           style={{ background: "white" }}
                           // width="230"
                           // height="60"
-                          src={require("../assets/iscte.PNG")}
+                          src={require("../assets/all_conf.png")}
                           alt=""
                         />
                       </a>
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
+
+              <div className="col-lg-3 footer_col">
+                {/* <div className="footer_column">
+                  <div className="footer_title">Associate</div>
+                  <div className="gallery d-flex flex-row align-items-start justify-content-between flex-wrap">
+                    <div className="gallery_item">
+                      <a
+                        className="footer_title"
+                        href="https://www.allconferencealert.com/"
+                      >
+                        <img
+                          style={{ background: "white" }}
+                          // width="230"
+                          // height="60"
+                          src={require("../assets/all_conf.png")}
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div> */}
+              </div>
             </div>
           </div>
         </div>

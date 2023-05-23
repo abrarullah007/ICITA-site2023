@@ -92,16 +92,15 @@ class Submission extends React.Component {
                       </p>
                       <br></br>
                       <div className="button button_3 cta_button pull-left">
-                        {/* <a
-                          href="https://easychair.org/my/conference?conf=icita2022"
+                        <a
+                          href="https://easychair.org/conferences/?conf=icita2023"
                           target="_blank"
                         >
                           <span>
                             Easychair
                             <img src={require("../assets/arrow.png")} alt="" />
                           </span>
-                        </a> */}
-                        Coming soon...
+                        </a>
                       </div>
                       <p>
                         Note: To submit a paper you need to have an EasyChair
@@ -212,8 +211,7 @@ class Submission extends React.Component {
                           href="https://www.springer.com/series/15179"
                           target="_blank"
                         >
-                          Lecture Notes in Network Systems Series (Application
-                          in process)
+                          Lecture Notes in Network Systems Series
                         </a>
                         <img
                           src={require("../assets/lnns.PNG")}

@@ -10,7 +10,7 @@ class Contact extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "ICITA 2021 | Contact";
+    document.title = "ICITA " + new Date().getFullYear() + " | Contact";
   }
 
   render() {

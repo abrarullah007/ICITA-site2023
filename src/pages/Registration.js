@@ -39,7 +39,7 @@ class Registration extends React.Component {
                           href="https://www.springer.com/series/15179"
                           target="_blank"
                         >
-                          Lecture Notes in Network Systems Series (in process)
+                          Lecture Notes in Network Systems Series 
                         </a>
                         <a
                           href="https://www.springer.com/series/15179"
@@ -74,7 +74,7 @@ class Registration extends React.Component {
                               </td>
                               <td valign="bottom">
                                 <p>
-                                  <b style={{ color: "green" }}>USD 100</b>
+                                  <b style={{ color: "green" }}>&euro; 100</b>
                                 </p>
                               </td>
                             </tr>
@@ -83,7 +83,7 @@ class Registration extends React.Component {
                                 <p>In presence/Face to face</p>
                               </td>
                               <td valign="bottom">
-                                <p>USD 250</p>
+                                <p>&euro; 250</p>
                               </td>
                             </tr>
                             <tr>
@@ -91,7 +91,7 @@ class Registration extends React.Component {
                                 <p>In presence (Student)</p>
                               </td>
                               <td valign="bottom">
-                                <p>USD 150</p>
+                                <p>&euro; 150</p>
                               </td>
                             </tr>
                             <tr>
@@ -99,7 +99,7 @@ class Registration extends React.Component {
                                 <p>Exhibitor for companies / products</p>
                               </td>
                               <td valign="bottom">
-                                <p>USD 350 </p>
+                                <p>&euro; 350 </p>
                               </td>
                             </tr>
                             <tr>
@@ -128,7 +128,7 @@ class Registration extends React.Component {
                               </td>
                               <td valign="bottom">
                                 <p>
-                                  <b style={{ color: "green" }}>USD 50</b>
+                                  <b style={{ color: "green" }}>&euro; 50</b>
                                 </p>
                               </td>
                             </tr>
@@ -137,7 +137,7 @@ class Registration extends React.Component {
                                 <p>Extra paper (Face to face)</p>
                               </td>
                               <td valign="bottom">
-                                <p>USD 100</p>
+                                <p>&euro; 100</p>
                               </td>
                             </tr>
                             <tr>
@@ -145,7 +145,7 @@ class Registration extends React.Component {
                                 <p>Conference Dinner (October 21)</p>
                               </td>
                               <td valign="bottom">
-                                <p>USD 30</p>
+                                <p>&euro; 30</p>
                               </td>
                             </tr>
                           </tbody>

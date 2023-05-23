@@ -47,6 +47,7 @@ class CallForPapers extends React.Component {
                       </div>
                       <ul style={{ listStyleType: "circle" }} align="left">
                         <li>Big Data Analytics</li>
+                        <li>Software Engineering</li>
                         <li>Business Process Engineering</li>
                         <li>Blockchain</li>
                         <li>Cloud computing  </li>

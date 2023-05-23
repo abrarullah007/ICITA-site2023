@@ -4,7 +4,9 @@ import "../assets/css/flags.css";
 class TechnicalCommittee extends React.Component {
   componentDidMount() {
     document.title =
-      "ICITA 2021: Technical Committee - 15th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA " +
+      new Date().getFullYear() +
+      ": Technical Committee - 15th International Conference on Information Technology and Applications (ICITA)";
   }
   render() {
     return (
@@ -21,6 +23,14 @@ class TechnicalCommittee extends React.Component {
 
                 <div className="intro_text text-center">
                   <ul style={{ listStyleType: "circle" }} align="left">
+                    <li>
+                      Federico Lanzalonga, University of Turin, Italy Italy
+                    </li>
+                    <li>Michele Oppioli, University of Turin, Italy</li>
+                    <li>Ginevra Degregori, University of Turin,Italy Italy</li>
+                    <li>
+                      Basilio Petrolo, PhD Candidate, University of Turin, Italy
+                    </li>
                     <li>
                       Adnan, Awais, Institute of Management Sciences, Pakistan
                     </li>
@@ -317,6 +327,10 @@ class TechnicalCommittee extends React.Component {
                     <li>
                       Victor Hugo Medina Garcia, Universidad Distrital Francisco
                       Jos&eacute; de Caldas, Colombia
+                    </li>
+                    <li>
+                      Waseem Ahmad, Raja, College of Engineering and IT, Ajman
+                      University, UAE
                     </li>
                     <li>
                       Wiem, Mkaouer, Mohamed Rochester Institute of Technology,
