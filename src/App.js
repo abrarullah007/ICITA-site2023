@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 import CallForPapers from "./pages/CallForPapers";
 import CallForworkshop from "./pages/CallForWorkshop";
 import CallForSession from "./pages/Callforsession";
-
+import Invitation from "./pages/Invitation";
 import PageCarousel from "./components/PageCarousel";
 import TechnicalCommittee from "./pages/TechnicalCommittee";
 import Organizers from "./pages/Organizers";
@@ -24,7 +24,8 @@ import Speaker1 from "./pages/Speaker1";
 import Speaker2 from "./pages/Speaker2";
 import Speaker3 from "./pages/Speaker3";
 import Speaker4 from "./pages/Speaker4";
-
+import Speaker5 from "./pages/Speaker5";
+import Camera from "./pages/Camera";
 import Venue from "./pages/Venue";
 import Program from "./pages/Program";
 import Submission from "./pages/Submission";
@@ -80,10 +81,20 @@ class RouterNav extends React.Component {
 
             <Organizers />
           </Route>
+          <Route path="/invitation">
+            <PageCarousel title="Invitation" />
+
+            <Invitation />
+          </Route>
+          <Route path="/camera">
+            <PageCarousel title="Camera Ready Paper Guidelines" />
+
+            <Camera />
+          </Route>
           <Route path="/IKIT">
             <PageCarousel
-              title="5th International Workshop on Information and Knowledge in Internet of Things"
-              prefix="IKIT-2021"
+              title="7th International Workshop on Information and Knowledge in Internet of Things"
+              prefix="IKIT-2023"
             />
             <IKIT />
           </Route>
@@ -97,20 +108,24 @@ class RouterNav extends React.Component {
             <Speakers />
           </Route>
           <Route path="/speaker1">
-            <PageCarousel title="Dr.Helga Hambrock" />
+            <PageCarousel title="Prof. Alvaro Roca" />
             <Speaker1 />
           </Route>
           <Route path="/speaker2">
-            <PageCarousel title="Dr. Anthony Brooks" />
+            <PageCarousel title="Dr David Tien" />
             <Speaker2 />
           </Route>
           <Route path="/speaker3">
-            <PageCarousel title="Dr. José Manuel Machado" />
+            <PageCarousel title="Dr Davide Calandra" />
             <Speaker3 />
           </Route>
           <Route path="/speaker4">
-            <PageCarousel title="Dr. Ronnie Figueiredo" />
+            <PageCarousel title="Dr. Raffaele Di Fuccio" />
             <Speaker4 />
+          </Route>
+          <Route path="/speaker5">
+            <PageCarousel title="Dr Valerio Brescia" />
+            <Speaker5 />
           </Route>
           <Route path="/program">
             <PageCarousel title="Programme" />

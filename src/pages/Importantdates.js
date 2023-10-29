@@ -37,10 +37,10 @@ class ImoprtantDates extends React.Component {
                         </div>
                         <div className="schedule_title">
                           <br></br>
-                          {/* <strike>
-                            5<sup>th</sup> July 2023
-                          </strike>{" "} */}
-                          <br></br>5<sup>th</sup> June 2023
+                          <strike>
+                            26<sup>th</sup> June 2023
+                          </strike>{" "}
+                          <br></br> 5<sup>th</sup> July 2023
                         </div>
                         {/* <div className="schedule_info">
                           
@@ -74,7 +74,7 @@ class ImoprtantDates extends React.Component {
                         <div className="schedule_time">
                           Camera Ready Submission
                         </div>
-                        <div className="schedule_title">22th August 2023</div>
+                        <div className="schedule_title">25th August 2023</div>
                       </div>
                     </li>
                   </ul>

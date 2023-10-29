@@ -53,21 +53,19 @@ class Submission extends React.Component {
                         camera-ready version of accepted papers, saved in Word
                         or Latex format and also in PDF format. These files must
                         be accompanied by the filled ‘Consent to Publish’ form.
-                        All files need to be compressed(e.g. ZIP file) and
-                        uploaded at the conference management system. <br />
+                        <br />
                         Use the following templates:
                         <ul>
                           <li>
                             {" "}
                             <b>
                               {" "}
-                              {/* <a
-                                href="https://www.icita.world/files/Book_Contributor_EN_Limited_v1_1.docm"
+                              <a
+                                href="https://www.icita.world/files/Book_Contributor_EN_Limited_v1_1.docx"
                                 target="_blank"
                               >
                                 Click here to download the consent form
-                              </a> */}
-                              Consent form will be published soon.
+                              </a>
                             </b>
                           </li>
                           <li>
@@ -91,7 +89,8 @@ class Submission extends React.Component {
                         <b>Easychair conference Management System:</b>
                       </p>
                       <br></br>
-                      <div className="button button_3 cta_button pull-left">
+                      <h4>Submissions closed</h4>
+                      {/* <div className="button button_3 cta_button pull-left">
                         <a
                           href="https://easychair.org/conferences/?conf=icita2023"
                           target="_blank"
@@ -101,25 +100,26 @@ class Submission extends React.Component {
                             <img src={require("../assets/arrow.png")} alt="" />
                           </span>
                         </a>
-                      </div>
+                      </div> 
                       <p>
                         Note: To submit a paper you need to have an EasyChair
                         account.
                         <br />
-                      </p>
+                      </p>*/}
 
                       {/* Camera Ready Paper Submission */}
-                      {/* <p align="left">
-                        <h4>Submit Camera Ready Papers by 30th August 2022</h4>
-                      </p>
                       <p align="left">
+                        <h4>Submit Camera Ready Papers by 28th August 2023</h4>
+                      </p>
+                      {/* <p align="left">
                         <b>
                           The version of papers must include names, e-mail and
                           affiliation of the authors. This information must be
                           saved in Word and also in PDF format. These files must
                           be accompanied by the filled ‘Consent to Publish’
                           form. Camera Ready Paper must be submitted in MS Word
-                          format with a signed consent to publish form.
+                          format with a <b>hand-written</b> signed consent to
+                          publish form.
                         </b>
                         <ul>
                           <li>
@@ -127,7 +127,7 @@ class Submission extends React.Component {
                             <b>
                               {" "}
                               <a
-                                href="https://www.icita.world/files/Book_Contributor_EN_Limited_v1_1.docm"
+                                href="https://www.icita.world/files/Book_Contributor_EN_Limited_v1_1.docx"
                                 target="_blank"
                               >
                                 Click here to download the consent form
@@ -150,23 +150,23 @@ class Submission extends React.Component {
                         </ul>
                       </p> */}
 
-                      {/* <p align="left">
+                      <p align="left">
                         To submit camera ready paper please go to{" "}
-                        <b>Easychair conference Management System:</b>
-                      </p> */}
-                      <br></br>
-                      {/* <div className="button button_3 cta_button pull-left">
+                        <a href="#/camera">camera ready</a>
+                      </p>
+                      {/* <br></br>
+                      <div className="button button_3 cta_button pull-left">
                         <a
-                          href="https://forms.gle/9fzByRwbXH7fXyrw6"
+                          href="https://forms.gle/AEsH1KNDac7bKKXy7"
                           target="_blank"
                         >
                           <span>
-                            Camera-Ready Paper Upload
+                            Camera-Ready
                             <img src={require("../assets/arrow.png")} alt="" />
                           </span>
                         </a>
-                      </div> */}
-                      {/* <p align="left">
+                      </div>
+                      <p align="left">
                         <b>
                           Note: You must submit your paper in MS Word format for
                           editing{" "}

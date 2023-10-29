@@ -1,6 +1,6 @@
 import React from "react";
 
-class Speaker2 extends React.Component {
+class Speaker5 extends React.Component {
   constructor(props) {
     super(props);
 
@@ -31,19 +31,22 @@ class Speaker2 extends React.Component {
                   <div className="row speakers_row">
                     <div className="col-xl-12 col-md-12">
                       <img
-                        src={require("../assets/img-comm/David_tien1.jpg")}
+                        src={require("../assets/img-comm/val.jpg")}
                         alt=""
-                        width="260"
-                        height="240"
+                        width="200"
+                        height="220"
                       />
-                      <h4>Dr.David Tien</h4>
+                      <h4>Dr Valerio Brescia</h4>
 
                       <div className="organiser_intro mt-2 col-md-12">
                         <div className="col-md-12">
                           <p align="center">
                             <i>
-                              IEEE Computer Society Asia-Pacific Area
-                              Coordinator, Charles Sturt University Australia
+                              {/* Director of Centro ALGORITMI, Director of the
+                              Doctoral Program in Biomedical Engineering
+                              Department of Informatics / Centro ALGORITMI,
+                              School of Engineering, University of Minho,
+                              Portugal */}
                             </i>
                           </p>
                         </div>
@@ -51,21 +54,18 @@ class Speaker2 extends React.Component {
                       <br></br>
                       <div className="intro_left_content text_left">
                         <p align="left">
-                          Dr David Tien received his undergraduate, master's and
-                          PhD degrees in Computer Science, Pure Mathematics and
-                          Electrical Engineering from Chinese Academy of
-                          Sciences, Ohio State University, USA, and the
-                          University of Sydney, Australia, respectively.
-                        </p>
-                        <p align="left">
-                          Dr Tien’s research interests are in the areas of image
-                          and signal processing, natural language processing,
-                          artificial intelligent, telecommunication coding
-                          theory and biomedical engineering. Since 1986 he has
-                          published over 120 peer reviewed articles. Dr Tien is
-                          currently teaching computer science at the Charles
-                          Sturt University, Australia and serves as the Chairman
-                          of Conference Coordination Committee, IEEE NSW.
+                          Assistant professor in public management and
+                          accounting at the University of Turin, Department of
+                          Management "Valter Cantino". Chartered accountant,
+                          auditor, and author of several research papers in
+                          broad fields such as smart cities, smart tourism
+                          activities and dialogic accounting. Editor-in-Chief of
+                          the European Journal of Volunteering and
+                          Community-based Projects. Finally, over the years, he
+                          has been involved in multiple European projects, such
+                          as H2020 Avangard, to study proper business models for
+                          electric mobility and an Erasmus + on social
+                          entrepreneurship.
                         </p>
                       </div>
                     </div>
@@ -80,4 +80,4 @@ class Speaker2 extends React.Component {
   }
 }
 
-export default Speaker2;
+export default Speaker5;

@@ -74,11 +74,8 @@ class Header extends React.Component {
               <li className={activeClass("/importantdates")}>
                 <Link to="/importantdates">Important Dates</Link>
               </li>
-              <li
-                className={activeClass("/callforpapers")}
-                className="has_children"
-              >
-                <a href="#/callforpapers">Tracks</a>
+              <li className={activeClass("/callforpapers") + " has_children"}>
+                <a href="#/callforpapers">Paper Submission</a>
                 <ul>
                   <li>
                     <Link to="/callforpapers">Call for Papers</Link>
@@ -92,12 +89,23 @@ class Header extends React.Component {
                     <Link to="/submissions">Submissions</Link>
                   </li>
                   <li>
+                    <Link to="/camera">Camera Ready Guidelines</Link>
+                  </li>
+                </ul>
+              </li>
+              <li className={activeClass("/registration") + " has_children"}>
+                <a href="#/registration">Attend</a>
+                <ul>
+                  <li>
                     <Link to="/registration">Registration</Link>
+                  </li>
+                  <li>
+                    <Link to="/invitation">Invitation Letter</Link>
                   </li>
                 </ul>
               </li>
               <li className="has_children">
-                <a href="/program">Schedule</a>
+                <a href="#/program">Schedule</a>
                 <ul>
                   <li>
                     <Link to="/program">Programme Schedule</Link>

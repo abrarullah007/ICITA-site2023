@@ -39,7 +39,7 @@ class Registration extends React.Component {
                           href="https://www.springer.com/series/15179"
                           target="_blank"
                         >
-                          Lecture Notes in Network Systems Series 
+                          Lecture Notes in Network Systems Series
                         </a>
                         <a
                           href="https://www.springer.com/series/15179"
@@ -64,6 +64,11 @@ class Registration extends React.Component {
                                   <strong>Amount</strong>
                                 </p>
                               </td>
+                              <td valign="bottom">
+                                <p>
+                                  <strong>Payment Link</strong>
+                                </p>
+                              </td>
                             </tr>
 
                             <tr>
@@ -77,6 +82,11 @@ class Registration extends React.Component {
                                   <b style={{ color: "green" }}>&euro; 100</b>
                                 </p>
                               </td>
+                              <td>
+                                <a href="https://buy.stripe.com/4gwbLHdW9fjC8LK5km">
+                                  Payment Link
+                                </a>
+                              </td>
                             </tr>
                             <tr>
                               <td valign="bottom">
@@ -84,6 +94,11 @@ class Registration extends React.Component {
                               </td>
                               <td valign="bottom">
                                 <p>&euro; 250</p>
+                              </td>
+                              <td>
+                                <a href="https://buy.stripe.com/9AQ6rn8BP4EY5zybIJ">
+                                  Payment Link
+                                </a>
                               </td>
                             </tr>
                             <tr>
@@ -93,6 +108,11 @@ class Registration extends React.Component {
                               <td valign="bottom">
                                 <p>&euro; 150</p>
                               </td>
+                              <td>
+                                <a href="https://buy.stripe.com/4gwaHDg4h1sMfa8000">
+                                  Paymetn Link
+                                </a>
+                              </td>
                             </tr>
                             <tr>
                               <td valign="bottom">
@@ -101,6 +121,7 @@ class Registration extends React.Component {
                               <td valign="bottom">
                                 <p>&euro; 350 </p>
                               </td>
+                              <td>*Contact Chair</td>
                             </tr>
                             <tr>
                               <td valign="bottom">
@@ -109,6 +130,7 @@ class Registration extends React.Component {
                               <td valign="bottom">
                                 <p>&nbsp;</p>
                               </td>
+                              <td></td>
                             </tr>
                             <tr>
                               <td valign="bottom">
@@ -131,6 +153,11 @@ class Registration extends React.Component {
                                   <b style={{ color: "green" }}>&euro; 50</b>
                                 </p>
                               </td>
+                              <td>
+                                <a href="https://buy.stripe.com/6oEdTP2drdbue647sv">
+                                  Payment Link
+                                </a>
+                              </td>
                             </tr>
                             <tr>
                               <td valign="bottom">
@@ -139,17 +166,27 @@ class Registration extends React.Component {
                               <td valign="bottom">
                                 <p>&euro; 100</p>
                               </td>
+                              <td>
+                                <a href="https://buy.stripe.com/8wM9DzaJX5J23rq6os">
+                                  Payment Link
+                                </a>
+                              </td>
                             </tr>
                             <tr>
                               <td valign="bottom">
                                 <p>Conference Dinner (October 21)</p>
                               </td>
                               <td valign="bottom">
-                                <p>&euro; 30</p>
+                                <p>&euro; 30 (TBC)</p>
                               </td>
+                              <td></td>
                             </tr>
                           </tbody>
                         </table>
+                        <b>
+                          Registration fee is non-transferrable and
+                          non-refundable
+                        </b>
                         {/* <div className="section_title_container text-center">
                           <div className="section_title">
                             <h2>Online participants</h2>

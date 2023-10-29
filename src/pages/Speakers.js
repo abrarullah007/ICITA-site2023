@@ -30,39 +30,39 @@ class Speakers extends React.Component {
             </div>
           </div>
           <div className="row speakers_row">
-            TBC
             {/* <!-- Speaker --> */}
-            {/* <div className="col-xl-3 col-md-3">
+            <div className="col-xl-3 col-md-6"></div>
+            <div className="col-xl-3 col-md-6">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/img-comm/helga.jpg")}
+                    src={require("../assets/img-comm/alvaro.jpg")}
                     alt=""
-                    width="290"
+                    width="260"
                     height="270"
                   />
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a href="#/speaker1" style={{ fontSize: "14px" }}>
-                      Dr.Helga Hambrock
+                      Prof. Álvaro Rocha
                     </a>
                   </div>
                   <div className="speaker_title">
                     <a href="#/speaker1" style={{ color: "white" }}>
                       {" "}
-                      Concordia University, Chicago, US
+                      Professor, University of Lisbon, Portugal
                     </a>
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
             {/* <!-- Speaker --> */}
-            {/* <div className="col-xl-3 col-md-3">
+            <div className="col-xl-3 col-md-6">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/img-comm/tony.jpg")}
+                    src={require("../assets/img-comm/David_tien1.jpg")}
                     alt=""
                     width="260"
                     height="270"
@@ -71,22 +71,26 @@ class Speakers extends React.Component {
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a href="#/speaker2" style={{ fontSize: "14px" }}>
-                      Dr.Anthony Brooks
+                      Dr.David Tien
                     </a>
                   </div>
                   <div className="speaker_title">
                     <a href="#/speaker2" style={{ color: "white" }}>
-                      Aalborg University, Denmark
+                      Charles Sturt University Australia
                     </a>
                   </div>
                 </div>
               </div>
-            </div> */}
-            {/* <div className="col-xl-3 col-md-3">
+            </div>
+            <div className="col-xl-3 col-md-6"></div>
+          </div>
+          <div className="row speakers_row">
+            <div className="col-xl-2 col-md-2"></div>
+            <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/img-comm/fernando3.jpg")}
+                    src={require("../assets/img-comm/davide.jpg")}
                     alt=""
                     width="220"
                     height="260"
@@ -95,22 +99,22 @@ class Speakers extends React.Component {
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a href="#/speaker3" style={{ fontSize: "14px" }}>
-                      Dr. José Manuel Machado
+                      Dr. Davide Calandra
                     </a>
                   </div>
                   <div className="speaker_title">
                     <a href="#/speaker3" style={{ color: "white" }}>
-                      University of Minho, Portugal{" "}
+                      University of Turin, Italy{" "}
                     </a>
                   </div>
                 </div>
               </div>
-            </div> */}
-            {/* <div className="col-xl-3 col-md-3">
+            </div>
+            <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/img-comm/Ronnie2.jpg")}
+                    src={require("../assets/img-comm/raff.jpg")}
                     alt=""
                     width="210"
                     height="260"
@@ -119,17 +123,41 @@ class Speakers extends React.Component {
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a href="#/speaker4" style={{ fontSize: "14px" }}>
-                      Dr. Ronnie Figueiredo
+                      Dr. Raffaele Di Fuccio
                     </a>
                   </div>
                   <div className="speaker_title">
                     <a href="#/speaker4" style={{ color: "white" }}>
-                      Polytechnic of Leiria, Portugal{" "}
+                      Pegaso Telematic University, Italy{" "}
                     </a>
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
+            <div className="col-xl-3 col-md-3">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/img-comm/val.jpg")}
+                    alt=""
+                    width="210"
+                    height="260"
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
+                    <a href="#/speaker5" style={{ fontSize: "14px" }}>
+                      Dr Valerio Brescia
+                    </a>
+                  </div>
+                  <div className="speaker_title">
+                    <a href="#/speaker5" style={{ color: "white" }}>
+                      Assistant Professor, University of Turin, Italy{" "}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

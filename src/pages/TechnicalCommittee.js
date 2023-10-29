@@ -31,6 +31,8 @@ class TechnicalCommittee extends React.Component {
                     <li>
                       Basilio Petrolo, PhD Candidate, University of Turin, Italy
                     </li>
+                    <li>Protopapa Simona University of Turin, Italy</li>
+                    <li>Saccà Angelo, University of Turin, Italy</li>
                     <li>
                       Adnan, Awais, Institute of Management Sciences, Pakistan
                     </li>

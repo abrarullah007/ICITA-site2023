@@ -1,4 +1,6 @@
 import React from "react";
+import TurinLogo from "../assets/TurinLogo";
+import FoggiaLogo from "../assets/FoggiaLogo";
 
 class Footer extends React.Component {
   render() {
@@ -88,42 +90,39 @@ class Footer extends React.Component {
                     <div className="gallery_item">
                       <a
                         className="footer_title"
-                        href="https://www.allconferencealert.com/"
+                        href="https://www.unito.it/"
+                        target="_blank"
                       >
-                        <img
-                          style={{ background: "white" }}
-                          // width="230"
-                          // height="60"
-                          src={require("../assets/all_conf.png")}
-                          alt=""
-                        />
+                        <TurinLogo></TurinLogo>
+                      </a>
+                      <a
+                        className="footer_title"
+                        href="https://www.unifg.it/"
+                        target="_blank"
+                      >
+                        <FoggiaLogo></FoggiaLogo>
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="col-lg-3 footer_col">
-                {/* <div className="footer_column">
+              {/* <div className="col-lg-3 footer_col">
+                <div className="footer_column">
                   <div className="footer_title">Associate</div>
                   <div className="gallery d-flex flex-row align-items-start justify-content-between flex-wrap">
                     <div className="gallery_item">
                       <a
                         className="footer_title"
-                        href="https://www.allconferencealert.com/"
+                        href="https://www.unifg.it/"
+                        target="_blank"
                       >
-                        <img
-                          style={{ background: "white" }}
-                          // width="230"
-                          // height="60"
-                          src={require("../assets/all_conf.png")}
-                          alt=""
-                        />
+                        <FoggiaLogo></FoggiaLogo>
                       </a>
                     </div>
                   </div>
-                </div> */}
-              </div>
+                </div>
+              </div> */}
             </div>
           </div>
         </div>

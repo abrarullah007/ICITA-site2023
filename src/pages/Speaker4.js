@@ -31,12 +31,12 @@ class Speaker4 extends React.Component {
                   <div className="row speakers_row">
                     <div className="col-xl-12 col-md-12">
                       <img
-                        src={require("../assets/img-comm/blank.png")}
+                        src={require("../assets/img-comm/raff.jpg")}
                         alt=""
                         width="200"
                         height="260"
                       />
-                      <h4>Dr. Ronnie Figueiredo</h4>
+                      <h4>Dr. Raffaele Di Fuccio</h4>
 
                       <div className="organiser_intro mt-2 col-md-12">
                         <div className="col-md-12">
@@ -54,18 +54,19 @@ class Speaker4 extends React.Component {
                       <br></br>
                       <div className="intro_left_content text_left">
                         <p align="left">
-                          He´s academic scientist at the School of Technology
-                          and Management, Centre of Applied Research in
-                          Management and Economics (CARME), Polytechnic of
-                          Leiria. The studies at the CARME combines innovations
-                          in spatial science, artificial intelligence methods in
-                          machine learning (e.g., deep learning) and data
-                          mining. He's the author of Spinner Innovation Model®,
-                          published in indexed international journals. He has
-                          edited or co-edited books on technology, management &
-                          innovation fields. His research interests include
-                          “Technology Management and Economics” applying Data
-                          Mining and Deep Learning techniques., Portugal
+                          Raffaele Di Fuccio (raffaele.difuccio@unipegaso.it) is
+                          an associate professor in Special Education (M-PED/03)
+                          at Pegaso Telematic University. He is a biomedical
+                          engineer and holds a Ph.D. in Human Mind and Gender
+                          Studies from the University of Naples - Federico II.
+                          His research interests are focused on enhancing
+                          learning through the application of innovative
+                          technologies, particularly by employing a multisensory
+                          approach to education, enhanced by digital tools,
+                          harnessing the potential of Mixed Reality systems, and
+                          specifically, the Tangible User Interfaces (TUI)
+                          paradigm. He is also involved in the application of
+                          serious games in training and education.
                         </p>
                       </div>
                     </div>
