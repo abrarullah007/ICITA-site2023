@@ -24,9 +24,9 @@ class CallForWorkshop extends React.Component {
                   <p align="left">
                     The academics, professionals, researchers, and industrial
                     community is invited to submit proposals for the
-                    organization of Workshops/Special Sessions at ICITA 2023 -
+                    organization of Workshops/Special Sessions at ICITA 2024 -
                     17th International Conference on Information Technology and
-                    Applications, to be held at Turin, Italy, 20-22nd Oct 2023.
+                    Applications, to be held at Turin, Italy, 20-22nd Oct 2024.
                     ICITA is a prestigious global forum for researchers and
                     practitioners to present and discuss the most recent
                     innovations, trends, results, experiences, and concerns in
@@ -83,7 +83,7 @@ class CallForWorkshop extends React.Component {
                     <p align="justify">
                       <b>
                         {" "}
-                        ICITA'21 organizers reserve the right to cancel any
+                        ICITA'24 organizers reserve the right to cancel any
                         Workshop/Special Session if deadlines are missed or if
                         the number of registered attendees is too low to support
                         the costs associated with the Workshop.

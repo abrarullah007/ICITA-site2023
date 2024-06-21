@@ -13,7 +13,7 @@ class Footer extends React.Component {
                 <div className="logo">
                   <a href="#">
                     <span>
-                      ICITA<span>2023</span>
+                      ICITA<span>2024</span>
                     </span>
                     <span>CONFERENCE</span>
                   </a>
@@ -54,7 +54,7 @@ class Footer extends React.Component {
 
               <div className="col-lg-3 footer_col">
                 <div className="footer_column">
-                  <div className="footer_title">Proceedings</div>
+                  <div className="footer_title">Proceedings </div>
                   <div className="footer_text">
                     <a
                       href="https://www.springer.com/series/15179"
@@ -83,7 +83,7 @@ class Footer extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 footer_col">
+              {/* <div className="col-lg-3 footer_col">
                 <div className="footer_column">
                   <div className="footer_title">Associate</div>
                   <div className="gallery d-flex flex-row align-items-start justify-content-between flex-wrap">
@@ -95,23 +95,6 @@ class Footer extends React.Component {
                       >
                         <TurinLogo></TurinLogo>
                       </a>
-                      <a
-                        className="footer_title"
-                        href="https://www.unifg.it/"
-                        target="_blank"
-                      >
-                        <FoggiaLogo></FoggiaLogo>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* <div className="col-lg-3 footer_col">
-                <div className="footer_column">
-                  <div className="footer_title">Associate</div>
-                  <div className="gallery d-flex flex-row align-items-start justify-content-between flex-wrap">
-                    <div className="gallery_item">
                       <a
                         className="footer_title"
                         href="https://www.unifg.it/"

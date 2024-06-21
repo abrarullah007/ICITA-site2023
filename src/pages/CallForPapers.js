@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class CallForPapers extends React.Component {
   componentDidMount() {
     document.title =
-      "Call For Papers - 15th International Conference on Information Technology and Applications (ICITA)";
+      "Call For Papers - 18th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -150,13 +150,13 @@ class CallForPapers extends React.Component {
                         practical relevance to the confernce tracks will be
                         given best paper award. Sponsored by the MDPI, a prize
                         of €500 will be awarded for the best article to be
-                        presented in person at ICITA 2023.
+                        presented in person at ICITA 2024.
                       </p>
                       <h4> Publication and Indexing </h4>
                       <p>
                         To ensure that a full paper is published, at least one
                         of the authors must be fully registered by the 20th of
-                        June 2023, and the paper must comply with the suggested
+                        June 2024, and the paper must comply with the suggested
                         layout and page-limit. Additionally, all recommended
                         changes must be addressed by the authors before they
                         submit the camera-ready version.

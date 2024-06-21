@@ -7,7 +7,7 @@ const axios = require("axios");
 class Home extends React.Component {
   componentDidMount() {
     document.title =
-      "ICITA 2023 Conference: The 17th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA 2024 Conference: The 18th International Conference on Information Technology and Applications (ICITA)";
   }
   render() {
     return (

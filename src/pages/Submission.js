@@ -11,7 +11,7 @@ class Submission extends React.Component {
 
   componentDidMount() {
     document.title =
-      "ICITA 2023 | Submissions - 17th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA 2024 | Submissions - 17th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -86,31 +86,34 @@ class Submission extends React.Component {
                       <p align="left"></p>
                       <p align="left">
                         To submit or upload a paper please go to{" "}
-                        <b>Easychair conference Management System:</b>
+                        <b>
+                          Microsoft CMT System, search for "icita" in the
+                          conferences tab:
+                        </b>
                       </p>
                       <br></br>
-                      <h4>Submissions closed</h4>
-                      {/* <div className="button button_3 cta_button pull-left">
+
+                      <div className="button button_3 cta_button pull-left">
                         <a
-                          href="https://easychair.org/conferences/?conf=icita2023"
+                          href="https://cmt3.research.microsoft.com/ICITA2024"
                           target="_blank"
                         >
                           <span>
-                            Easychair
+                            Microsoft CMT
                             <img src={require("../assets/arrow.png")} alt="" />
                           </span>
                         </a>
-                      </div> 
+                      </div>
                       <p>
-                        Note: To submit a paper you need to have an EasyChair
-                        account.
+                        Note: To submit a paper you need to register on
+                        Microsoft CMT.
                         <br />
-                      </p>*/}
+                      </p>
 
                       {/* Camera Ready Paper Submission */}
-                      <p align="left">
-                        <h4>Submit Camera Ready Papers by 28th August 2023</h4>
-                      </p>
+                      {/* <p align="left">
+                        <h4>Submit Camera Ready Papers by 28th August 2024</h4>
+                      </p> */}
                       {/* <p align="left">
                         <b>
                           The version of papers must include names, e-mail and
@@ -150,10 +153,10 @@ class Submission extends React.Component {
                         </ul>
                       </p> */}
 
-                      <p align="left">
+                      {/* <p align="left">
                         To submit camera ready paper please go to{" "}
                         <a href="#/camera">camera ready</a>
-                      </p>
+                      </p> */}
                       {/* <br></br>
                       <div className="button button_3 cta_button pull-left">
                         <a
@@ -204,7 +207,7 @@ class Submission extends React.Component {
                     />{" "}
                   </p>
                   <div className="categories sidebar_list">
-                    <div className="sidebar_title">Proceedings</div>
+                    <div className="sidebar_title">Proceedings </div>
                     <ul>
                       <li>
                         <a

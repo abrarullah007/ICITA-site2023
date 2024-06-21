@@ -79,13 +79,13 @@ class Registration extends React.Component {
                               </td>
                               <td valign="bottom">
                                 <p>
-                                  <b style={{ color: "green" }}>&euro; 100</b>
+                                  <b style={{ color: "green" }}>US$ 250</b>
                                 </p>
                               </td>
                               <td>
-                                <a href="https://buy.stripe.com/4gwbLHdW9fjC8LK5km">
+                                {/* <a href="https://buy.stripe.com/4gwbLHdW9fjC8LK5km">
                                   Payment Link
-                                </a>
+                                </a> */}
                               </td>
                             </tr>
                             <tr>
@@ -93,93 +93,13 @@ class Registration extends React.Component {
                                 <p>In presence/Face to face</p>
                               </td>
                               <td valign="bottom">
-                                <p>&euro; 250</p>
+                                <p>US$ 550</p>
                               </td>
                               <td>
-                                <a href="https://buy.stripe.com/9AQ6rn8BP4EY5zybIJ">
+                                {/* <a href="https://buy.stripe.com/9AQ6rn8BP4EY5zybIJ">
                                   Payment Link
-                                </a>
+                                </a> */}
                               </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>In presence (Student)</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>&euro; 150</p>
-                              </td>
-                              <td>
-                                <a href="https://buy.stripe.com/4gwaHDg4h1sMfa8000">
-                                  Paymetn Link
-                                </a>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>Exhibitor for companies / products</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>&euro; 350 </p>
-                              </td>
-                              <td>*Contact Chair</td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>&nbsp;</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>&nbsp;</p>
-                              </td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>
-                                  <strong>Optional Items</strong>
-                                </p>
-                              </td>
-                              <td valign="bottom">
-                                <p>&nbsp;</p>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>
-                                  <b>Extra paper (Online)</b>
-                                </p>
-                              </td>
-                              <td valign="bottom">
-                                <p>
-                                  <b style={{ color: "green" }}>&euro; 50</b>
-                                </p>
-                              </td>
-                              <td>
-                                <a href="https://buy.stripe.com/6oEdTP2drdbue647sv">
-                                  Payment Link
-                                </a>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>Extra paper (Face to face)</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>&euro; 100</p>
-                              </td>
-                              <td>
-                                <a href="https://buy.stripe.com/8wM9DzaJX5J23rq6os">
-                                  Payment Link
-                                </a>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td valign="bottom">
-                                <p>Conference Dinner (October 21)</p>
-                              </td>
-                              <td valign="bottom">
-                                <p>&euro; 30 (TBC)</p>
-                              </td>
-                              <td></td>
                             </tr>
                           </tbody>
                         </table>

@@ -11,7 +11,7 @@ class Invitation extends React.Component {
 
   componentDidMount() {
     document.title =
-      "ICITA 2023 | Submissions - 17th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA 2024 | Submissions - 18th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -68,7 +68,7 @@ class Invitation extends React.Component {
                           href="https://www.springer.com/series/15179"
                           target="_blank"
                         >
-                          Lecture Notes in Network Systems Series
+                          Lecture Notes in Network Systems Series 
                         </a>
                         <img
                           src={require("../assets/lnns.PNG")}

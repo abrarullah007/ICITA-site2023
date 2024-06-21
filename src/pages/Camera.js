@@ -11,7 +11,7 @@ class Camera extends React.Component {
 
   componentDidMount() {
     document.title =
-      "ICITA 2023 | Camera Ready Paper - 17th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA 2024 | Camera Ready Paper - 18th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -64,9 +64,9 @@ class Camera extends React.Component {
                           </li>
                           <li>
                             Each paper must be associated with a unique ICITA
-                            2023 registration. One author must register to
+                            2024 registration. One author must register to
                             attend the conference by the camera-ready submission
-                            deadline (Aug 28, 2023). Authors can present
+                            deadline (Aug 28, 2024). Authors can present
                             multiple papers with a single registration only if
                             they are first authors on all papers. You will be
                             asked to submit your conference registration number
@@ -76,7 +76,7 @@ class Camera extends React.Component {
                             All camera-ready material and the signed License to
                             Publish form must be uploaded to the paper
                             submission system within a single zip file before
-                            the camera-ready submission deadline (Aug 28, 2023);
+                            the camera-ready submission deadline (Aug 28, 2024);
                             See details and the camera-ready submission
                             checklist below.
                           </li>
@@ -148,7 +148,7 @@ class Camera extends React.Component {
                       </p>
                       <h6>Submitting your Camera-ready files</h6>
                       <p align="left">
-                        Camera-ready material must be submitted by Aug 28, 2023.
+                        Camera-ready material must be submitted by Aug 28, 2024.
                         As described below, all files must be uploaded to the
                         submission site.
                       </p>

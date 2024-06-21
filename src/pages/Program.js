@@ -11,7 +11,7 @@ class Program extends React.Component {
 
   componentDidMount() {
     document.title =
-      "ICITA 2023 | Programme - 17th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA 2024 | Programme - 18th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -30,19 +30,20 @@ class Program extends React.Component {
                 <div className="intro_text text-center">
                   <div className="row speakers_row">
                     {" "}
-                    Please note, that sessions on day 1 (20th October 2023) will
+                    TBA
+                    {/* Please note, that sessions on day 1 (20th October 2023) will
                     be held in person at <br></br>
                     School of Management and Economics – University of Turin,
-                    Italy
+                    Italy */}
                     <br></br>
                   </div>
                   <div className="row speakers_row">
-                    <a
+                    {/* <a
                       href="https://www.icita.world/files/ICITA_2023.pdf"
                       target="_blank"
                     >
                       Click here to access the programme for ICITA 2023
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
