@@ -83,9 +83,9 @@ class Registration extends React.Component {
                                 </p>
                               </td>
                               <td>
-                                {/* <a href="https://buy.stripe.com/4gwbLHdW9fjC8LK5km">
+                                <a href="https://buy.stripe.com/dR6fZAdQW5Gi8coeUV">
                                   Payment Link
-                                </a> */}
+                                </a>
                               </td>
                             </tr>
                             <tr>
@@ -96,9 +96,9 @@ class Registration extends React.Component {
                                 <p>US$ 550</p>
                               </td>
                               <td>
-                                {/* <a href="https://buy.stripe.com/9AQ6rn8BP4EY5zybIJ">
+                                <a href="https://buy.stripe.com/fZecNo7syfgSgIU7ss">
                                   Payment Link
-                                </a> */}
+                                </a>
                               </td>
                             </tr>
                           </tbody>

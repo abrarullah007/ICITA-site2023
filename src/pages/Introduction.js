@@ -16,7 +16,7 @@ class Introduction extends React.Component {
                 <p align="left">
                   The 18th International Conference on Information Technology
                   and Applications (ICITA 2024) will be held in Sydney,
-                  Australia on 18 - 20 October 2024. The conference is an annual
+                  Australia on 17 - 19 October 2024. The conference is an annual
                   event and recognized as one of the major series of conferences
                   in Information Technology (IT in short). ICITA continues to
                   retain its tradition of being a high quality conference. The
@@ -73,7 +73,7 @@ class Introduction extends React.Component {
                   networking medium for their research findings. We are
                   confident that more will be achieved during the next ten
                   years! The conference will be held at the Hilton Sydney,
-                  Australia from the 20 through 18th of October, 2024. The aim
+                  Australia from the 17 through 19th of October, 2024. The aim
                   of International Conference on Information Technology and
                   Applications is to provide a platform for academics and
                   engineers in computer technology to meet, exchange ideas, and
@@ -141,25 +141,13 @@ class Introduction extends React.Component {
                 </div>
                 <br></br>
 
-                {/* <p align="left">
-                  <b>
-                    Extended version of selected papers will be published in
-                    Journal of Education, Special Issue on &nbsp;
-                    <a
-                      href="https://www.mdpi.com/journal/education/special_issues/Current_Challenges_Digital_Higher_Education"
-                      target="_blank"
-                    >
-                      Current Challenges in Digital Higher Education
-                    </a>
-                  </b>
-                </p> */}
                 <br></br>
                 <p>
-                  <img
-                    src="https://www.mdpi.com/img/design/mdpi-pub-logo-blue-small4.png?fff78193ca41c286"
-                    width="130"
-                    height="100"
-                  />
+                  <strong>
+                    <a href="https://www.icita.world/files/ICITA_2024.pdf">
+                      ICITA 2024 Program
+                    </a>
+                  </strong>
                 </p>
               </div>
             </div>
