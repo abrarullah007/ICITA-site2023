@@ -9,16 +9,16 @@ class Introduction extends React.Component {
             <div className="col text-center">
               <div className="section_title_container text-center">
                 <div className="section_title">
-                  <h1>ICITA 2023</h1>
+                  <h1>ICITA 2024</h1>
                 </div>
               </div>
               <div className="intro_left_content text_left">
                 <p align="left">
-                  The 17th International Conference on Information Technology
-                  and Applications (ICITA 2023) will be held in Turin, Italy on
-                  20 - 22 October 2023. The conference is an annual event and
-                  recognized as one of the major series of conferences in
-                  Information Technology (IT in short). ICITA continues to
+                  The 18th International Conference on Information Technology
+                  and Applications (ICITA 2024) will be held in Sydney,
+                  Australia on 17 - 19 October 2024. The conference is an annual
+                  event and recognized as one of the major series of conferences
+                  in Information Technology (IT in short). ICITA continues to
                   retain its tradition of being a high quality conference. The
                   event will open an opportunity for academics and industry
                   professionals worldwide to exchange their knowledge of the
@@ -27,19 +27,54 @@ class Introduction extends React.Component {
                   establish new links and extend professional networks. This
                   conference addresses the importance that IT professionals
                   stretch across narrowly defined subject areas and constantly
-                  acquire a global technical and social perspective. ICITA 2023
+                  acquire a global technical and social perspective. ICITA 2024
                   offers such an opportunity to facilitate cross-disciplinary
                   and social gatherings.{" "}
                 </p>
+                <div className="col-lg-12 schedule_col">
+                  <div className="schedule_container">
+                    {/* <div className="schedule_title_bar schedule_title_bar_1 text-center">
+                      Proceedings Publication
+                    </div> */}
+                    <div className="schedule_content text-left">
+                      <strong>
+                        {" "}
+                        All accepted papers will be published as book chapters
+                        in a High Quality book by Springer Book{" "}
+                        <a
+                          href="https://www.springer.com/series/15179"
+                          target="_blank"
+                        >
+                          {" "}
+                          "Lecture Notes in Network Systems Series"
+                        </a>{" "}
+                        in both hardcopy as well as electronic version in ISSN
+                        (Print): 2367-3370 and ISSN (electronic):2367-3389
+                        <a
+                          href="https://www.springer.com/series/15179"
+                          target="_blank"
+                        >
+                          {" "}
+                          <img
+                            src={require("../assets/springerlink.jpg")}
+                            // width="230"
+                            // height="auto"
+                          />
+                        </a>
+                      </strong>
+                    </div>
+                  </div>
+                </div>
+                <p></p>
                 <p align="left">
                   Since 2002 ICITA has maintained a high conference standard,
                   and several thousand academics and Information Technology
                   professionals have used it as a presenting, publishing and
                   networking medium for their research findings. We are
                   confident that more will be achieved during the next ten
-                  years! The conference will be held at the University of Turin,
-                  Italy from the 20 through 22nd of October, 2023. The aim of
-                  International Conference on Information Technology and
+                  years! The conference will be held at the Hilton Sydney,
+                  Australia from the 17 through 19th of October, 2024. The aim
+                  of International Conference on Information Technology and
                   Applications is to provide a platform for academics and
                   engineers in computer technology to meet, exchange ideas, and
                   establish professional networks. It is a forum which will
@@ -54,11 +89,13 @@ class Introduction extends React.Component {
                   IEEE NSW Section, IEEE Computer Society, the University of
                   Technology Sydney, Australia; Charles Sturt University,
                   Australia; Heilongjiang University, China, Jiao-tong
-                  University, China, ACM SIG CHI Singapore and Society of
-                  Industry Technology. For the ICITA 2023, we gladly welcome the
-                  University of Turin/Università degli Studi di Torino, Italy
-                  and the Heriot-Watt University, Edinburgh/Dubai/Malaysia to
-                  join others to be the sponsors of this event.
+                  University, China, University of Turin/Università degli Studi
+                  di Torino, Italy, University Institute of Lisbon (ISCTE) -
+                  Instituto Universitário de Lisboa, Portugal, and ACM SIG CHI
+                  Singapore and Society of Industry Technology. For the ICITA
+                  2024, we gladly welcome the Heriot-Watt University,
+                  Edinburgh/Dubai/Malaysia to join others to be the sponsors of
+                  this event.
                 </p>
                 <p align="left">
                   Full and short papers accepted and registered will be
@@ -104,25 +141,13 @@ class Introduction extends React.Component {
                 </div>
                 <br></br>
 
-                <p align="left">
-                  <b>
-                    Extended version of selected papers will be published in
-                    Journal of Education, Special Issue on &nbsp;
-                    <a
-                      href="https://www.mdpi.com/journal/education/special_issues/Current_Challenges_Digital_Higher_Education"
-                      target="_blank"
-                    >
-                      Current Challenges in Digital Higher Education
-                    </a>
-                  </b>
-                </p>
                 <br></br>
                 <p>
-                  <img
-                    src="https://www.mdpi.com/img/design/mdpi-pub-logo-blue-small4.png?fff78193ca41c286"
-                    width="130"
-                    height="100"
-                  />
+                  <strong>
+                    <a href="https://www.icita.world/files/ICITA_2024.pdf">
+                      ICITA 2024 Program
+                    </a>
+                  </strong>
                 </p>
               </div>
             </div>

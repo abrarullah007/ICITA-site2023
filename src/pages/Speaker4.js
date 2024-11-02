@@ -11,7 +11,7 @@ class Speaker4 extends React.Component {
 
   componentDidMount() {
     document.title =
-      "Keynote Speakers - 17th International Conference on Information Technology and Applications (ICITA)";
+      "Keynote Speakers - 18th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -31,7 +31,7 @@ class Speaker4 extends React.Component {
                   <div className="row speakers_row">
                     <div className="col-xl-12 col-md-12">
                       <img
-                        src={require("../assets/img-comm/raff.jpg")}
+                        src={require("../assets/img-comm/blank.png")}
                         alt=""
                         width="200"
                         height="260"

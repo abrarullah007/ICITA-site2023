@@ -11,7 +11,7 @@ class Camera extends React.Component {
 
   componentDidMount() {
     document.title =
-      "ICITA 2023 | Camera Ready Paper - 17th International Conference on Information Technology and Applications (ICITA)";
+      "ICITA 2024 | Camera Ready Paper - 18th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -34,11 +34,11 @@ class Camera extends React.Component {
                       <p align="left">
                         <ul style={{ "list-style-type": "disc" }}>
                           <li>
-                            The authors must address the minor changes provided
-                            by the comments from reviewers and the Area
-                            Chair(s); please include a file entitled 'Changes
-                            after review' with a bulleted list of the
-                            modifications to the paper.
+                            The authors must address the changes provided by the
+                            comments from reviewers and the Area Chair(s);
+                            please include a file entitled 'Changes after
+                            review' with a bulleted list of the modifications to
+                            the paper.
                           </li>
                           <li>
                             The authors must submit a{" "}
@@ -64,20 +64,16 @@ class Camera extends React.Component {
                           </li>
                           <li>
                             Each paper must be associated with a unique ICITA
-                            2023 registration. One author must register to
+                            2024 registration. One author must register to
                             attend the conference by the camera-ready submission
-                            deadline (Aug 28, 2023). Authors can present
-                            multiple papers with a single registration only if
-                            they are first authors on all papers. You will be
-                            asked to submit your conference registration number
-                            when you submit your camera-ready material.
+                            deadline (Sept 5th, 2024).
                           </li>
                           <li>
                             All camera-ready material and the signed License to
                             Publish form must be uploaded to the paper
                             submission system within a single zip file before
-                            the camera-ready submission deadline (Aug 28, 2023);
-                            See details and the camera-ready submission
+                            the camera-ready submission deadline (Sept 5th,
+                            2024); See details and the camera-ready submission
                             checklist below.
                           </li>
                         </ul>
@@ -92,12 +88,120 @@ class Camera extends React.Component {
                           href="https://www.icita.world/files/Springer_Template.docm"
                           target="_blank"
                         >
-                          LNCS templates (LaTeX2e or Word)
+                          LNNS templates (LaTeX2e or Word)
                         </a>{" "}
                         available on the Springer website to prepare your paper.
                         The templates are also available in Overleaf.
                       </p>
-
+                      <p align="left">
+                        Detailed Formatting Checklist:
+                        <ul>
+                          <li>
+                            {" "}
+                            Formatting: The paper should adhere to Springer
+                            column formatting <br></br>
+                            1. Document Preparation Template: Use the official
+                            Springer single-column template for Word or LaTeX.
+                            Download it from Springer's Manuscript Preparation
+                            Guidelines. <br></br>
+                            File Format: Ensure your final submission is in MS
+                            Word (.doc or .docx) or LaTeX format. 2. Page Layout
+                            Paper Size: Use standard A4 size (210mm x 297mm).
+                            <br></br> Margins: Set top and bottom margins to 5
+                            cm, and left and right margins to 4.5 cm. Alignment:
+                            Justify the text. Columns: Use single-column format
+                            throughout the document. Spacing: Use 1.5 line
+                            spacing for the entire document.
+                          </li>
+                          <li>
+                            {" "}
+                            3. Fonts Text: Use Times New Roman, 12-point font
+                            size.
+                            <br></br>
+                            Headings: Follow the heading levels as defined in
+                            the template, using consistent numbering (e.g., 1,
+                            1.1, 1.1.1).
+                            <br></br>Captions: Ensure all figures and tables
+                            have a caption in Times New Roman, 10-point font
+                            size.{" "}
+                          </li>
+                          <li>
+                            4. Sections
+                            <br></br>Title: Include the full title of the paper
+                            in bold, 14-point font size, centered at the top of
+                            the first page.
+                            <br></br>Author(s): Include the full names,
+                            affiliations, and email addresses of all authors
+                            beneath the title.
+                            <br></br>Abstract: Provide an abstract of no more
+                            than 250 words in 10-point font size. Keywords: List
+                            4-6 keywords after the abstract. <br></br> Headings:
+                            Use no more than three levels of headings (e.g.,
+                            Section 1, Subsection 1.1, Sub-subsection 1.1.1).
+                          </li>
+                          <li>
+                            {" "}
+                            5. Figures and Tables Placement:
+                            <br></br>Insert figures and tables within the text,
+                            close to where they are first referenced.
+                            Resolution: Ensure all figures are of high
+                            resolution (minimum 300 DPI). Numbering: Number
+                            figures and tables consecutively (e.g., Figure 1,
+                            Table 1). <br></br>
+                            Captions: Provide clear, concise captions for all
+                            figures and tables.
+                          </li>{" "}
+                          <li>
+                            {" "}
+                            6. Equations Formatting: <br></br>Center all
+                            equations and number them consecutively on the right
+                            margin. Tools: Use MathType or LaTeX for creating
+                            equations to ensure compatibility.
+                          </li>
+                          <li>
+                            7. Citations and References In-Text Citations:
+                            <br></br> Use the numbering system for in-text
+                            citations (e.g., [1], [2, 3]). <br></br>
+                            Reference List:<br></br> List all references at the
+                            end of the document in numerical order. <br></br>
+                            Format: Follow the Springer reference style as
+                            outlined in the template.
+                          </li>
+                          <li>
+                            {" "}
+                            8. Miscellaneous Spelling and Grammar:<br></br>
+                            Run a spelling and grammar check on your document.
+                            <br></br> File Naming: Name your files according to
+                            the conference guidelines (e.g.,
+                            SubmissionID_paper.docx).
+                          </li>{" "}
+                          <li>
+                            {" "}
+                            9. Final Checks Page Count: <br></br>Ensure the
+                            paper adheres to the page limit specified by the
+                            conference.
+                            <br></br> Consent to Publish: <br></br>Attach the
+                            signed Consent to Publish form with your submission.
+                            Compliance: Double-check that the paper strictly
+                            follows all formatting rules to avoid rejection.
+                          </li>
+                          <li>
+                            10. All figures are printed in black and white.
+                            Colored figures remain in color in the online
+                            version. Please make sure that any colored figures
+                            are comprehensible in black and white. Springer does
+                            not support color in text, tables, or in equations.
+                            Tables must not be included as images.
+                          </li>
+                          <li>
+                            11.Please ensure that Springer's format for
+                            bibliographical references is strictly enforced.
+                            This is important, for instance, when citing
+                            previous ICITA proceedings.
+                          </li>
+                        </ul>
+                      </p>
+                      <h6>Page Limit</h6>
                       <p align="left">
                         To accommodate changes requested by the reviewers while
                         also still accommodating additional content that
@@ -120,18 +224,7 @@ class Camera extends React.Component {
                           formatting commands in the Springer templates.
                         </b>
                       </p>
-                      <p align="left">
-                        All figures are printed in black and white. Colored
-                        figures remain in color in the online version. Please
-                        make sure that any colored figures are comprehensible in
-                        black and white. Springer does not support color in
-                        text, tables, or in equations.
-                      </p>
-                      <p align="left">
-                        Please ensure that Springer's format for bibliographical
-                        references is strictly enforced. This is important, for
-                        instance, when citing previous ICITA proceedings.
-                      </p>
+
                       <h6>Authors and Publication Names</h6>
                       <p align="left">
                         When listing authors in the author section on your
@@ -148,20 +241,17 @@ class Camera extends React.Component {
                       </p>
                       <h6>Submitting your Camera-ready files</h6>
                       <p align="left">
-                        Camera-ready material must be submitted by Aug 28, 2023.
-                        As described below, all files must be uploaded to the
-                        submission site.
+                        Camera-ready material must be submitted by Sept 5th,
+                        2024. As described below, all files must be uploaded to
+                        the submission site.
                       </p>
                       <p align="left"></p>
                       <p align="left"></p>
                       <p align="left"></p>
                       <p align="left"></p>
                       <p align="left"></p>
-
                       <br></br>
-
                       {/* Camera Ready Paper Submission */}
-
                       <p align="left">
                         <b>
                           The version of papers must include names, e-mail and
@@ -201,10 +291,11 @@ class Camera extends React.Component {
                         </ul>
                       </p>
                       <p align="left">
-                        To submit or upload a paper please go to{" "}
+                        To submit or upload a paper please go to CMT > Authors
+                        Console{" "}
                         <div className="button button_3 cta_button pull-left">
                           <a
-                            href="https://forms.gle/AEsH1KNDac7bKKXy7"
+                            href="https://cmt3.research.microsoft.com/ICITA2024"
                             target="_blank"
                           >
                             <span>

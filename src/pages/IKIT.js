@@ -18,7 +18,7 @@ class IKIT extends React.Component {
                   <div className="section_title_container text-center">
                     <div className="contact_title">
                       <h3 style={{ textAlign: "left" }}>
-                        5th International Workshop on Information and Knowledge
+                        6th International Workshop on Information and Knowledge
                         in Internet of Things
                       </h3>
                     </div>
@@ -26,10 +26,10 @@ class IKIT extends React.Component {
                   <div className="intro_left_content text_left">
                     <p align="left">
                       The International Workshop on Information and Knowledge in
-                      the Internet of Things (IKIT 2021) in conjunction with the
+                      the Internet of Things (IKIT 2024) in conjunction with the
                       15th International Conference on Information Technology
-                      and Applications (ICITA 2021), will be held in Dubai, UAE
-                      on 13 - 14 November 2021.
+                      and Applications (ICITA 2024), will be held in Dubai, UAE
+                      on 13 - 14 November 2024.
                     </p>
                     <p align="left">
                       Internet of Things (IoT) is currently one of the most
@@ -386,14 +386,14 @@ class IKIT extends React.Component {
                         </p>
                       </p>
 
-                      <div className="button button_2 intro_button">
+                      {/* <div className="button button_2 intro_button">
                         <a href="https://easychair.org/cfp/IKIT2021">
                           <span>
                             Submissions{" "}
                             <img src={require("../assets/arrow.png")} alt="" />
                           </span>
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

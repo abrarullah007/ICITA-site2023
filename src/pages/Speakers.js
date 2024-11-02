@@ -36,29 +36,30 @@ class Speakers extends React.Component {
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/img-comm/alvaro.jpg")}
+                    src={require("../assets/img-comm/xiang.jpg")}
                     alt=""
-                    width="260"
-                    height="270"
+                    width="240"
+                    height="300"
                   />
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a href="#/speaker1" style={{ fontSize: "14px" }}>
-                      Prof. Álvaro Rocha
+                      Dr Xianzhi Wang
                     </a>
                   </div>
                   <div className="speaker_title">
                     <a href="#/speaker1" style={{ color: "white" }}>
                       {" "}
-                      Professor, University of Lisbon, Portugal
+                      Senior Lecturer of School of Computer Science, University
+                      of Technology Sydney, Ausralia
                     </a>
                   </div>
                 </div>
               </div>
             </div>
             {/* <!-- Speaker --> */}
-            <div className="col-xl-3 col-md-6">
+            {/* <div className="col-xl-3 col-md-6">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
@@ -81,12 +82,12 @@ class Speakers extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="col-xl-3 col-md-6"></div>
           </div>
           <div className="row speakers_row">
             <div className="col-xl-2 col-md-2"></div>
-            <div className="col-xl-3 col-md-3">
+            {/* <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
@@ -109,8 +110,8 @@ class Speakers extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-3 col-md-3">
+            </div> */}
+            {/* <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
@@ -133,8 +134,8 @@ class Speakers extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-3 col-md-3">
+            </div> */}
+            {/* <div className="col-xl-3 col-md-3">
               <div className="speaker">
                 <div className="speaker_image">
                   <img
@@ -157,7 +158,7 @@ class Speakers extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

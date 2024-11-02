@@ -11,7 +11,7 @@ class Organizers extends React.Component {
 
   componentDidMount() {
     document.title =
-      "Organisers - 17th International Conference on Information Technology and Applications (ICITA)";
+      "Organisers - 18th International Conference on Information Technology and Applications (ICITA)";
   }
 
   render() {
@@ -32,17 +32,17 @@ class Organizers extends React.Component {
                     <div className="col-xl-6 col-md-6">
                       <h4>Honorary Chair</h4>
                       <img
-                        src={require("../assets/img-comm/David_tien1.jpg")}
+                        src={require("../assets/img-comm/jason.png")}
                         alt=""
                         width="260"
                         height="280"
                       />
                       <p className="organiser_intro mt-2">
-                        <b>Dr David Tien</b>
+                        <b>Dr Jason Williams</b>
                         <br />
-                        IEEE Computer Society Asia-Pacific Area Coordinator
+                        Deputy Dean of School of Technologies,
                         <br />
-                        Charles Sturt University Australia
+                        Cardiff Metropolitan University, UK
                       </p>
                     </div>
                     <div className="col-xl-6 col-md-6">
@@ -62,12 +62,12 @@ class Organizers extends React.Component {
                     </div>
                   </div>
                   <div className="row speakers_row">
-                    <div className="col-xl-4 col-md-4">
+                    <div className="col-xl-6 col-md-6">
                       <h4>General Chair</h4>
                       <img
                         src={require("../assets/img-comm/abrar1.jpg")}
                         alt=""
-                        width="260"
+                        width="240"
                         height="300"
                       />
                       <p className="organiser_intro  mt-2">
@@ -76,50 +76,109 @@ class Organizers extends React.Component {
                         Edinburgh|<b>Dubai</b>|Malaysia
                       </p>
                     </div>
-                    <div className="col-xl-4 col-md-4">
+                    <div className="col-xl-6 col-md-6">
                       <h4>General Chair</h4>
+                      <img
+                        src={require("../assets/img-comm/David_tien1.jpg")}
+                        alt=""
+                        width="260"
+                        height="280"
+                      />
+                      <p className="organiser_intro mt-2">
+                        <b>Dr David Tien</b>
+                        <br />
+                        IEEE Computer Society Asia-Pacific Area Coordinator
+                        <br />
+                        Charles Sturt University Australia
+                      </p>
+                    </div>
+                  </div>
+                  <div className="row speakers_row">
+                    <div className="col-xl-4 col-md-4">
+                      <h4>General Co-Chair</h4>
+                      <img
+                        src={require("../assets/img-comm/sajid.png")}
+                        alt=""
+                      />{" "}
+                      <p className="organiser_intro  mt-2">
+                        <b>Prof. Sajid Anwar</b>
+                        <br /> Professor, Institute of Management Sciences,
+                        Peshawar
+                      </p>
+                    </div>
+                    <div className="col-xl-4 col-md-4">
+                      <h4>General Co-chair</h4>
+                      <img
+                        src={require("../assets/img-comm/gwan.png")}
+                        alt=""
+                        width="200"
+                        height="250"
+                      />
+                      <p className="organiser_intro  mt-2">
+                        <b>Prof. Gwanggil Jeon</b>
+                        <br />
+                        Professor, Incheon National Univetsity Korea
+                      </p>
+                    </div>
+                    <div className="col-xl-4 col-md-4">
+                      <h4>General Co-chair</h4>
+                      <img
+                        src={require("../assets/img-comm/kill.jpg")}
+                        alt=""
+                        width="200"
+                        height="270"
+                      />
+                      <p className="organiser_intro  mt-2">
+                        <b>Prof. Ki-ll Kim</b>
+                        <br />
+                        Professor, Chungnam National University, Republic of
+                        Korea
+                      </p>
+                    </div>
+                  </div>
+                  <div className="row speakers_row">
+                    <div className="col-xl-3 col-md-3">
+                      <h4>International Chair</h4>
+                      <img
+                        src={require("../assets/img-comm/roland.png")}
+                        alt=""
+                      />{" "}
+                      <p className="organiser_intro  mt-2">
+                        <b>Prof. Roland Erik Haas</b>
+                        <br />
+                        International Institute of Information Technology
+                        <br />
+                        Bangalore, India
+                      </p>
+                    </div>
+                    <div className="col-xl-3 col-md-3">
+                      <h4>International Chair</h4>
+                      <img
+                        src={require("../assets/img-comm/xiaokang.png")}
+                        alt=""
+                      />{" "}
+                      <p className="organiser_intro  mt-2">
+                        <b>Dr Xiaokang Zhou</b>
+                        <br />
+                        Associate Professor, Shiga University
+                        <br /> Japan
+                      </p>
+                    </div>
+                    <div className="col-xl-3 col-md-3">
+                      <h4>International Advisor</h4>
                       <img
                         src={require("../assets/img-comm/davide.jpg")}
                         alt="Dr. Davide Calandra"
-                        width="280"
-                        height="300"
+                        width="200"
+                        height="250"
                       />{" "}
                       <p className="organiser_intro mt-2">
                         <b>Dr Davide Calandra</b>
                         <br /> Assistant Professor, University of Turin, Italy
                       </p>
                     </div>
-                    <div className="col-xl-4 col-md-4">
-                      <h4>General Chair</h4>
-                      <img
-                        src={require("../assets/img-comm/raff.jpg")}
-                        alt="Prof. Maria Sausa"
-                        width="280"
-                        height="300"
-                      />{" "}
-                      <p className="organiser_intro mt-2">
-                        <b>Dr. Raffaele Di Fuccio</b>
-                        <br /> Assistant Professor, University of Foggia, Italy
-                      </p>
-                    </div>
-                  </div>
-                  <div className="row speakers_row">
-                    <div className="col-xl-4 col-md-6">
-                      <h4>General Co-chair</h4>
-                      <img
-                        src={require("../assets/img-comm/Ryad.jpg")}
-                        alt=""
-                        width="230"
-                        height="240"
-                      />
-                      <p className="organiser_intro  mt-2">
-                        <b>Dr Ryad Soobhany</b>
-                        <br /> Assistant Professor, Heriot-Watt University,
-                        Edinburgh|<b>Dubai</b>|Malaysia
-                      </p>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                      <h4>General Co-chair</h4>
+                    <div className="col-xl-3 col-md-3">
+                      <h4>International Advisor</h4>
                       <img
                         src={require("../assets/img-comm/maria2.png")}
                         alt="Prof. Maria Sausa"
@@ -132,66 +191,9 @@ class Organizers extends React.Component {
                         Institute of Lisbon, Portugal
                       </p>
                     </div>
-                    <div className="col-xl-4 col-md-6">
-                      <h4>General Co-chair</h4>
-                      <img
-                        src={require("../assets/img-comm/val.jpg")}
-                        alt="Dr. Valerio Brescia"
-                        width="230"
-                        height="240"
-                      />
-                      <p className="organiser_intro  mt-2">
-                        <b>Dr Valerio Brescia</b>
-                        <br /> Assistant Professor, University of Turin, Italy
-                      </p>
-                    </div>
                   </div>
                   <div className="row speakers_row">
                     <div className="col-xl-4 col-md-4">
-                      <h4>International Chair</h4>
-                      <img
-                        src={require("../assets/img-comm/sajid.png")}
-                        alt=""
-                      />{" "}
-                      <p className="organiser_intro  mt-2">
-                        <b>Dr Sajid Anwar</b>
-                        <br /> Professor, Institute of Management Sciences,
-                        Peshawar
-                      </p>
-                    </div>
-                    <div className="col-xl-4 col-md-4">
-                      <h4>International Advisor</h4>
-                      <img
-                        src={require("../assets/img-comm/silvana.jpg")}
-                        width="210"
-                        height="240"
-                        alt="Silvana Secinaro"
-                      />
-                      <br />
-                      <p className="organiser_intro  mt-2">
-                        <b> Dr Silvana Secinaro</b>
-                        <br /> Associate professor, University of Turin, Italy
-                      </p>
-                    </div>
-
-                    <div className="col-xl-4 col-md-4">
-                      <h4>International Advisor</h4>
-                      <img
-                        src={require("../assets/img-comm/muss.PNG")}
-                        width="200"
-                        height="240"
-                        alt="Mussiraliyeva Shynar Zhenisbekovna"
-                      />
-                      <br />
-                      <p className="organiser_intro  mt-2">
-                        <b> Dr Mussiraliyeva Shynar Zhenisbekovna</b>
-                        <br /> Associate professor, AL-Farabi Kazakh National
-                        University, Kazakhistan
-                      </p>
-                    </div>
-                  </div>
-                  <div className="row speakers_row">
-                    <div className="col-xl-6 col-md-6">
                       <h4>Workshop Chair</h4>
                       <img
                         src={require("../assets/img-comm/teresa.jpg")}
@@ -205,18 +207,32 @@ class Organizers extends React.Component {
                         UDIMA - Distance University of Madrid, Spain{" "}
                       </p>
                     </div>
-                    <div className="col-xl-6 col-md-6">
+                    <div className="col-xl-4 col-md-4">
                       <h4>Workshop Chair</h4>
                       <img
-                        src={require("../assets/img-comm/paolo.jpg")}
-                        alt="Dr B B Gupta"
+                        src={require("../assets/img-comm/serena.png")}
+                        alt="Dr Serena Strazzullo"
                         width="200"
-                        height="240"
+                        height="220"
                       />{" "}
                       <p className="organiser_intro mt-2">
-                        <b>Prof. Paolo Biancone</b>
+                        <b>Dr Serena Strazzullo</b>
                         <br />
-                        Professor, University of Turin, Italy
+                        University of Naples Federico II, Italy
+                      </p>
+                    </div>
+                    <div className="col-xl-4 col-md-4">
+                      <h4>Workshop Chair</h4>
+                      <img
+                        src={require("../assets/img-comm/Babar.jpg")}
+                        alt="Dr Babar Shah"
+                        width="200"
+                        height="250"
+                      />{" "}
+                      <p className="organiser_intro mt-2">
+                        <b>Dr Babar Shah</b>
+                        <br />
+                        Associate Professor, Zayed University, UAE
                       </p>
                     </div>
                   </div>
@@ -238,30 +254,31 @@ class Organizers extends React.Component {
                     <div className="col-xl-4 col-md-4">
                       <h4>Special Session Chair</h4>
                       <img
-                        src={require("../assets/img-comm/fed.png")}
-                        alt="Dr. Federico Chmet"
-                        width="220"
+                        src={require("../assets/img-comm/Ryad.jpg")}
+                        alt=""
+                        width="230"
                         height="240"
-                      />{" "}
+                      />
                       <p className="organiser_intro  mt-2">
-                        <b>Dr. Federico Chmet</b>
-                        <br /> PostDoc Researcher, University of Turin, Italy
+                        <b>Dr Ryad Soobhany</b>
+                        <br /> Associate Professor, Heriot-Watt University,
+                        Edinburgh|<b>Dubai</b>|Malaysia
                       </p>
                     </div>
 
                     <div className="col-xl-4 col-md-4">
                       <h4>Special Session Chair</h4>
                       <img
-                        src={require("../assets/img-comm/imad.jpg")}
+                        src={require("../assets/img-comm/qasem.png")}
                         alt="Dr Imad Rida "
                         width="220"
                         height="260"
                       />{" "}
                       <p className="organiser_intro  mt-2">
-                        <b>Dr Imad Rida </b>
+                        <b>Dr Qasem Abu Al-Haija </b>
                         <br />
-                        BMBI Laboratory, University of Technology of Compiègne,
-                        France
+                        Assistant Professor, Department of Cybersecurity, Jordan
+                        University of Science and Technology, Irbid, Jordan
                       </p>
                     </div>
                   </div>
@@ -284,75 +301,76 @@ class Organizers extends React.Component {
                     <div className="col-xl-4 col-md-4">
                       <h4>Programme Committee Chair</h4>
                       <img
-                        src={require("../assets/img-comm/fran.jpg")}
-                        alt="Francesco Sulla"
+                        src={require("../assets/img-comm/adrian.jpg")}
+                        alt="Dr Adrian Turcanu"
                         width="200"
                         height="270"
                       />{" "}
                       <p className="organiser_intro mt-2">
-                        <b>Francesco Sulla</b>
+                        <b>Dr Adrian Turcanu</b>
+                        <br /> Assistant Professor, Heriot-Watt University,
+                        Edinburgh|<b>Dubai</b>|Malaysia
+                      </p>
+                    </div>
+                    <div className="col-xl-4 col-md-4">
+                      <h4>Programme Committee Chair</h4>
+                      <img
+                        src={require("../assets/img-comm/diego.png")}
+                        alt="Dr. Diego Oliva"
+                        width="200"
+                        height="270"
+                      />{" "}
+                      <p className="organiser_intro mt-2">
+                        <b>Dr Diego Oliva</b>
                         <br />
-                        Researcher, University of Foggia, Italy
+                        Associate Professor, University of Guadalajara,
+                        Guadalajara, Jalisco, Mexico
                       </p>
                     </div>
                     <div className="col-xl-4 col-md-4">
                       <h4>Programme Committee Chair</h4>
                       <img
-                        src={require("../assets/img-comm/antonio.jpg")}
-                        alt="Giusi Antonia Toto"
+                        src={require("../assets/img-comm/chiara.png")}
+                        alt="Chiara Gallese"
                         width="200"
                         height="270"
                       />{" "}
                       <p className="organiser_intro mt-2">
-                        <b>Giusi Antonia Toto</b>
-                        <br /> Researcher, University of Foggia, Italy
-                      </p>
-                    </div>
-                    <div className="col-xl-4 col-md-4">
-                      <h4>Programme Committee Chair</h4>
-                      <img
-                        src={require("../assets/img-comm/shooni.jpg")}
-                        alt="Giusi Antonia Toto"
-                        width="200"
-                        height="270"
-                      />{" "}
-                      <p className="organiser_intro mt-2">
-                        <b>Dr. Shaukat Ali</b>
-                        <br /> Lecturer, University of Peshawar, Pakistan
+                        <b>Dr Chiara Gallese</b>
+                        <br />
+                        Department of Law, University of Turin, Italy
                       </p>
                     </div>
                   </div>
                   <div className="row speakers_row">
-                    <div className="col-xl-4 col-md-4">
+                    {/* <div className="col-xl-4 col-md-4">
                       <h4>Poster Chair</h4>
                       <img
-                        src={require("../assets/img-comm/Babar.jpg")}
+                        src={require("../assets/img-comm/blank.png")}
                         alt="Michele Oppioli"
                         width="220"
                         height="260"
                       />{" "}
                       <p className="organiser_intro  mt-2">
-                        <b>Dr Babar Shah </b>
-                        <br /> Associate Professor, Zayed University, Abu Dhabi,
-                        UAE
+                        <b>TBC </b>
+                        <br /> TBC
                       </p>
                     </div>
                     <div className="col-xl-4 col-md-4">
                       <h4>Poster Chair</h4>
                       <img
-                        src={require("../assets/img-comm/nadeem.PNG")}
+                        src={require("../assets/img-comm/blank.png")}
                         alt="Basilio Petrolo"
                         width="230"
                         height="260"
                       />{" "}
                       <p className="organiser_intro  mt-2">
-                        <b>Dr Nadeem Iqbal </b>
+                        <b>TBC </b>
                         <br />
-                        Associate Professor, Abdul Wali Khan University Mardan
-                        (AWKUM), Pakistan
+                        TBC
                       </p>
-                    </div>
-                    {/* <div className="col-xl-4 col-md-4">
+                    </div> 
+                     <div className="col-xl-4 col-md-4">
                       <h4>Poster Chair</h4>
                       <img
                         src={require("../assets/img-comm/blank.png")}

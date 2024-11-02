@@ -36,6 +36,7 @@ class TechnicalCommittee extends React.Component {
                     <li>
                       Adnan, Awais, Institute of Management Sciences, Pakistan
                     </li>
+                    <li>Alurkar, Aakash, Zoom Communication, San Jose, USA</li>
                     <li>
                       Ahmad ,Amro Al-Said, Philadelphia University, Jordan
                     </li>
@@ -186,6 +187,7 @@ class TechnicalCommittee extends React.Component {
                       Khan, Sifat Ullah, University of Malakand , Pakistan
                     </li>
                     <li>Khattak, Asad, Zayed University , Pakistan</li>
+                    <li> Kundi, Mahwish, Maynooth University, Ireland</li>
                     <li>
                       Khattak, Hassan Ali, Comsat University Islamabad, Pakistan
                     </li>

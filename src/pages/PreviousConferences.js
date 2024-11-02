@@ -26,7 +26,27 @@ class PreviousConferences extends React.Component {
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/previous/icita2021.PNG")}
+                    src={require("../assets/previous/icita2023.png")}
+                    alt=""
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
+                    <a href="https://2023.icita.world" target="_blank">
+                      {" "}
+                      Archive
+                    </a>
+                  </div>
+                  <div className="speaker_title">ICITA 2023</div>
+                </div>
+              </div>
+            </div>
+            {/* <!-- Speaker --> */}
+            <div className="col-xl-4 col-md-6">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/previous/icita2022.png")}
                     alt=""
                   />
                 </div>
@@ -61,8 +81,51 @@ class PreviousConferences extends React.Component {
                 </div>
               </div>
             </div>
+            {/* <!-- Speaker --> */}
+            <div className="col-xl-4 col-md-6">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/previous/icita2016.png")}
+                    alt=""
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
+                    <a
+                      href="https://www.icita.org/icita/2016/index.html"
+                      target="_blank"
+                    >
+                      Archive
+                    </a>
+                  </div>
+                  <div className="speaker_title">ICITA 2016</div>
+                </div>
+              </div>
+            </div>
 
             {/* <!-- Speaker --> */}
+            <div className="col-xl-4 col-md-6">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/previous/icita2017.png")}
+                    alt=""
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
+                    <a
+                      href="https://web.archive.org/web/20170510020322/http://www.icita.org/"
+                      target="_blank"
+                    >
+                      Archive
+                    </a>
+                  </div>
+                  <div className="speaker_title">ICITA 2017</div>
+                </div>
+              </div>
+            </div>
             <div className="col-xl-4 col-md-6">
               <div className="speaker">
                 <div className="speaker_image">
@@ -74,7 +137,7 @@ class PreviousConferences extends React.Component {
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
+                      href="https://www.icita.org/icita/2018/index.html"
                       target="_blank"
                     >
                       Archive
@@ -107,168 +170,6 @@ class PreviousConferences extends React.Component {
                 </div>
               </div>
             </div>
-
-            {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
-              <div className="speaker">
-                <div className="speaker_image">
-                  <img
-                    src={require("../assets/previous/icita2002.png")}
-                    alt=""
-                  />
-                </div>
-                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  <div className="speaker_name">
-                    <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
-                      target="_blank"
-                    >
-                      Archive
-                    </a>
-                  </div>
-                  <div className="speaker_title">ICITA 2002</div>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
-              <div className="speaker">
-                <div className="speaker_image">
-                  <img
-                    src={require("../assets/previous/icita2004.png")}
-                    alt=""
-                  />
-                </div>
-                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  <div className="speaker_name">
-                    <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
-                      target="_blank"
-                    >
-                      Archive
-                    </a>
-                  </div>
-                  <div className="speaker_title">ICITA 2004</div>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
-              <div className="speaker">
-                <div className="speaker_image">
-                  <img
-                    src={require("../assets/previous/icita2005.png")}
-                    alt=""
-                  />
-                </div>
-                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  <div className="speaker_name">
-                    <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
-                      target="_blank"
-                    >
-                      Archive
-                    </a>
-                  </div>
-                  <div className="speaker_title">ICITA 2005</div>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
-              <div className="speaker">
-                <div className="speaker_image">
-                  <img
-                    src={require("../assets/previous/icita2007.png")}
-                    alt=""
-                  />
-                </div>
-                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  <div className="speaker_name">
-                    <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
-                      target="_blank"
-                    >
-                      Archive
-                    </a>
-                  </div>
-                  <div className="speaker_title">ICITA 2007</div>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
-              <div className="speaker">
-                <div className="speaker_image">
-                  <img
-                    src={require("../assets/previous/icita2008.png")}
-                    alt=""
-                  />
-                </div>
-                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  <div className="speaker_name">
-                    <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
-                      target="_blank"
-                    >
-                      Archive
-                    </a>
-                  </div>
-                  <div className="speaker_title">ICITA 2008</div>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
-              <div className="speaker">
-                <div className="speaker_image">
-                  <img
-                    src={require("../assets/previous/icita2009.png")}
-                    alt=""
-                  />
-                </div>
-                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  <div className="speaker_name">
-                    <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
-                      target="_blank"
-                    >
-                      Archive
-                    </a>
-                  </div>
-                  <div className="speaker_title">ICITA 2009</div>
-                </div>
-              </div>
-            </div>
-
-            {/* <!-- Speaker --> */}
-            <div className="col-xl-4 col-md-6">
-              <div className="speaker">
-                <div className="speaker_image">
-                  <img
-                    src={require("../assets/previous/icita2009.png")}
-                    alt=""
-                  />
-                </div>
-                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
-                  <div className="speaker_name">
-                    <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
-                      target="_blank"
-                    >
-                      Archive
-                    </a>
-                  </div>
-                  <div className="speaker_title">ICITA 2011</div>
-                </div>
-              </div>
-            </div>
-
             {/* <!-- Speaker --> */}
             <div className="col-xl-4 col-md-6">
               <div className="speaker">
@@ -281,7 +182,7 @@ class PreviousConferences extends React.Component {
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
+                      href="https://www.icita.org/icita/2013/index.html"
                       target="_blank"
                     >
                       Archive
@@ -304,7 +205,7 @@ class PreviousConferences extends React.Component {
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
+                      href="https://www.icita.org/icita/2014/index.html"
                       target="_blank"
                     >
                       Archive
@@ -327,7 +228,7 @@ class PreviousConferences extends React.Component {
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
+                      href="https://www.icita.org/icita/2015/index.html"
                       target="_blank"
                     >
                       Archive
@@ -343,20 +244,21 @@ class PreviousConferences extends React.Component {
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/previous/icita2016.png")}
+                    src={require("../assets/previous/icita2009.png")}
                     alt=""
                   />
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
+                      // href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
+                      href="https://www.icita.org/icita/2011/index.html"
                       target="_blank"
                     >
                       Archive
                     </a>
                   </div>
-                  <div className="speaker_title">ICITA 2016</div>
+                  <div className="speaker_title">ICITA 2011</div>
                 </div>
               </div>
             </div>
@@ -366,20 +268,135 @@ class PreviousConferences extends React.Component {
               <div className="speaker">
                 <div className="speaker_image">
                   <img
-                    src={require("../assets/previous/icita2017.png")}
+                    src={require("../assets/previous/icita2009.png")}
                     alt=""
                   />
                 </div>
                 <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
                   <div className="speaker_name">
                     <a
-                      href="https://web.archive.org/web/20190108042853/http://www.icita.org/index.jsp"
+                      href="https://www.icita.org/icita/2009/index.html"
                       target="_blank"
                     >
                       Archive
                     </a>
                   </div>
-                  <div className="speaker_title">ICITA 2017</div>
+                  <div className="speaker_title">ICITA 2009</div>
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Speaker --> */}
+            <div className="col-xl-4 col-md-6">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/previous/icita2008.png")}
+                    alt=""
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
+                    <a
+                      href="https://www.icita.org/icita/2008/index.html"
+                      target="_blank"
+                    >
+                      Archive
+                    </a>
+                  </div>
+                  <div className="speaker_title">ICITA 2008</div>
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Speaker --> */}
+            <div className="col-xl-4 col-md-6">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/previous/icita2007.png")}
+                    alt=""
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
+                    <a
+                      href="https://www.icita.org/icita/2007/index.html"
+                      target="_blank"
+                    >
+                      Archive
+                    </a>
+                  </div>
+                  <div className="speaker_title">ICITA 2007</div>
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Speaker --> */}
+            <div className="col-xl-4 col-md-6">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/previous/icita2005.png")}
+                    alt=""
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
+                    <a
+                      href="https://www.icita.org/icita/2005/index.html"
+                      target="_blank"
+                    >
+                      Archive
+                    </a>
+                  </div>
+                  <div className="speaker_title">ICITA 2005</div>
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Speaker --> */}
+            <div className="col-xl-4 col-md-6">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/previous/icita2004.png")}
+                    alt=""
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
+                    <a
+                      href="https://www.icita.org/icita/2004/index.html"
+                      target="_blank"
+                    >
+                      Archive
+                    </a>
+                  </div>
+                  <div className="speaker_title">ICITA 2004</div>
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Speaker --> */}
+            <div className="col-xl-4 col-md-6">
+              <div className="speaker">
+                <div className="speaker_image">
+                  <img
+                    src={require("../assets/previous/icita2002.png")}
+                    alt=""
+                  />
+                </div>
+                <div className="speaker_info d-flex flex-column align-items-start justify-content-center">
+                  <div className="speaker_name">
+                    <a
+                      href="https://www.icita.org/icita/2002/index.html"
+                      target="_blank"
+                    >
+                      Archive
+                    </a>
+                  </div>
+                  <div className="speaker_title">ICITA 2002</div>
                 </div>
               </div>
             </div>

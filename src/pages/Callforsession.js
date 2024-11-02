@@ -2,7 +2,7 @@ import React from "react";
 
 class CallForsession extends React.Component {
   componentDidMount() {
-    document.title = "Call For Session";
+    document.title = "Call For Session - ICITA";
   }
   render() {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import carouselPic1 from "../assets/index.jpg";
-import carouselPic2 from "../assets/turin1.jpg";
+import carouselPic2 from "../assets/sydney-1.jpg";
 //import carouselPic3 from "../assets/blog_page.jpg";
 import { Slide } from "react-slideshow-image";
 
@@ -20,9 +20,9 @@ class TopCarousel extends React.Component {
                         <div className="home_content">
                           <div className="home_title">
                             <h1>
-                              <span>2023</span>
+                              <span>2024</span>
                               <span>
-                                17th International Conference on Information
+                                18th International Conference on Information
                                 Technology and Applications (ICITA)
                               </span>
                             </h1>
@@ -30,8 +30,8 @@ class TopCarousel extends React.Component {
                           <div className="home_info_container">
                             <div className="home_info">
                               <ul className="d-flex flex-row align-items-center justify-content-start">
-                                <li>20-22nd October 2023</li>
-                                <li>Turin, Italy</li>
+                                <li>17-19th October 2024</li>
+                                <li>Sydney, Australia</li>
                                 <li>Hybrid (Online + Face to Face)</li>
                               </ul>
                             </div>
@@ -51,15 +51,15 @@ class TopCarousel extends React.Component {
                         <div className="home_content">
                           <div className="home_title">
                             <h1>
-                              <span>2023</span>
-                              <span>University of Turin, Italy</span>
+                              <span>2024</span>
+                              <span>Sydney, Australia</span>
                             </h1>
                           </div>
                           <div className="home_info_container">
                             <div className="home_info">
                               <ul className="d-flex flex-row align-items-center justify-content-start">
-                                <li>20-22nd Oct 2023</li>
-                                <li>Turin, Italy</li>
+                                <li>17-19th Oct 2024</li>
+                                <li>Sydney, Australia</li>
                                 <li>Online + Face to Face)</li>
                               </ul>
                             </div>
